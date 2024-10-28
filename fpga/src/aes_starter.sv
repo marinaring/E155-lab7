@@ -80,7 +80,9 @@ module aes_core(input  logic         clk,
                 output logic [127:0] cyphertext);
 
     // TODO: Your code goes here
-    
+	aes_controller controller(clk, load, nextkey, sben, sren, mcen, ready, constant, key);
+);
+     
 endmodule
 
 /////////////////////////////////////////////

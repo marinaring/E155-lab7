@@ -1,0 +1,14 @@
+#Start recording tcl command: 10/27/2024 18:58:26
+#Project Location: C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project; Project name: lab7
+prj_open "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7.rdf"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_words.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_bytes.sv"
+prj_remove_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_bytes.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv"
+#Stop recording: 10/28/2024 01:36:04

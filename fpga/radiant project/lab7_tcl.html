@@ -40,7 +40,26 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn241027170313"></A><B><U><big>pn241027170313</big></U></B>
+#Start recording tcl command: 10/27/2024 16:26:27
+#Project Location: C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project; Project name: lab7
+prj_create -name "lab7" -impl "lab7" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv"
+prj_save 
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/subWords.sv"
+prj_remove_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/subWords.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv"
+#Stop recording: 10/27/2024 17:03:13
+
+
+
 </PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn241027170313>pn241027170313</A></LI>
+</UL>
+</DIV>
 
 <button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
 <script type="text/javascript">
