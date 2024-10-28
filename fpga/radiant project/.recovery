@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2024.1.0.34.2" title="lab7" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" family_int="ice40tp" device_int="itpa08" package_int="SG48" operation_int="IND" speed_int="6" default_implementation="lab7">
+    <Options/>
+    <Implementation title="lab7" dir="lab7" description="lab7" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="sub_words"/>
+        <Source name="../src/aes_core_tb.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="testbench_aes_core"/>
+        </Source>
+        <Source name="../src/aes_sbox_tb.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="testbench_aes_sbox"/>
+        </Source>
+        <Source name="../src/aes_spi_tb.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="testbench_aes_spi"/>
+        </Source>
+        <Source name="../src/aes_starter.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="mixcolumns"/>
+        </Source>
+        <Source name="../src/sub_words.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lab71.sty"/>
+</RadiantProject>
