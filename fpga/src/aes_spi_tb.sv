@@ -11,7 +11,7 @@ module testbench_aes_spi();
 		logic [255:0] comb;
     logic [8:0] i;
 
-    // Added delay
+    // Added delayd
     logic delay;
     
     // device under test

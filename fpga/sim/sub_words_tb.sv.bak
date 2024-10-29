@@ -13,7 +13,7 @@ module testbench_sub_words();
     logic [127:0] key, roundstart, cyphertext, expected;
     
     // device under test
-    sub_words dut(roundstart, en, clk, cyphertext);
+    sub_words dut(roundstart, clk, en, cyphertext);
     
     // test case
     initial begin   

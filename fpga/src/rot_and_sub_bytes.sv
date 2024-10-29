@@ -10,9 +10,9 @@ module rot_and_sub_bytes(
 );
 
 	// shift left by one and then substitute byte 
-	sbox_sync(w[23:16], clk,  y[31:24]);
-	sbox_sync(w[15:8], clk,  y[23:16]);
-	sbox_sync(w[7:0], clk,  y[15:8]);
-	sbox_sync(w[31:24], clk,  y[7:0]);
+	sbox_sync b0(w[23:16], clk,  y[31:24]);
+	sbox_sync b1(w[15:8], clk,  y[23:16]);
+	sbox_sync b2(w[7:0], clk,  y[15:8]);
+	sbox_sync b3(w[31:24], clk,  y[7:0]);
 	
 endmodule

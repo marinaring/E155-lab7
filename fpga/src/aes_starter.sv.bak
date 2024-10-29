@@ -81,7 +81,6 @@ module aes_core(input  logic         clk,
 
 	logic sben, sren, mcen, outen;
 	logic [127:0] roundkey, encodedtext, nextencodedtext;
-);
 
     	// instantiate controller
 	aes_controller controller(clk, load, key, sben, sren, mcen, outen, done, roundkey);

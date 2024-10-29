@@ -13,7 +13,7 @@ module expand_key(
 	output logic [127:0] y
 );
 	logic [127:0] rot_key;
-	logic [31:0] w3, w4, w5, w6, w7, sub_rot_w4, sub_rot_w5, sub_rot_w6, sub_rot_w7;
+	logic [31:0] w4, w5, w6, w7, sub_rot_w4, sub_rot_w5, sub_rot_w6, sub_rot_w7;
 
 	rot_and_sub_bytes rsb(key[31:0], clk, w3);
 	

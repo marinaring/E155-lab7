@@ -52,10 +52,10 @@ module aes_controller(
 	aes_controller_nextstate FSM_logic(state, counter, load, nextstate, nextround);
 	
 	// output logic
-	assign sben = (state != 1) & (state != 0); // sub_bytes enable
-	assign sren = (state != 1) & (state != 0); // shift_rows enable
-	assign mcen = (state != 1) & (state != 0) & (state != 11); // mix_columns enable
-	assign done = (state == 11) & (counter == 3);	// successfully completed transmission!
-	assign outen = (counter == 3) & (state != 11); // enable next round
+	assign sben = (state != 1) && (state != 0); // sub_bytes enable
+	assign sren = (state != 1) && (state != 0); // shift_rows enable
+	assign mcen = (state != 1) && (state != 0) && (state != 11); // mix_columns enable
+	assign done = (state == 11) && (counter == 3);	// successfully completed transmission!
+	assign outen = (counter == 3) && (state != 11); // enable next round
 
 endmodule

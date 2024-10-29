@@ -10,16 +10,16 @@ module round_constant_decoder(
 
 	always_comb begin
 		case(Nr)
-			1: constant = {'h01, 'h00, 'h00, 'h00};
-			2: constant = {'h02, 'h00, 'h00, 'h00};
-			3: constant = {'h04, 'h00, 'h00, 'h00};
-			4: constant = {'h08, 'h00, 'h00, 'h00};
-			5: constant = {'h10, 'h00, 'h00, 'h00};
-			6: constant = {'h20, 'h00, 'h00, 'h00};
-			7: constant = {'h40, 'h00, 'h00, 'h00};
-			8: constant = {'h80, 'h00, 'h00, 'h00};
-			9: constant = {'h1b, 'h00, 'h00, 'h00};
-			10: constant = {'h36, 'h00, 'h00, 'h00};
+			1: constant = {8'h01, 8'h00, 8'h00, 8'h00};
+			2: constant = {8'h02, 8'h00, 8'h00, 8'h00};
+			3: constant = {8'h04, 8'h00, 8'h00, 8'h00};
+			4: constant = {8'h08, 8'h00, 8'h00, 8'h00};
+			5: constant = {8'h10, 8'h00, 8'h00, 8'h00};
+			6: constant = {8'h20, 8'h00, 8'h00, 8'h00};
+			7: constant = {8'h40, 8'h00, 8'h00, 8'h00};
+			8: constant = {8'h80, 8'h00, 8'h00, 8'h00};
+			9: constant = {8'h1b, 8'h00, 8'h00, 8'h00};
+			10: constant = {8'h36, 8'h00, 8'h00, 8'h00};
 			default: constant = 0;
 		endcase
 	end
