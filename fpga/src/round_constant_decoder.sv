@@ -5,7 +5,7 @@
 
 module round_constant_decoder(
 	input logic [3:0] Nr,
-	output logic [127:0] constant
+	output logic [31:0] constant
 );
 
 	always_comb begin

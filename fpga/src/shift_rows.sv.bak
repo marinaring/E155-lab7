@@ -16,35 +16,35 @@ module shift_rows(
 	input logic en,
 	output logic [127:0] y
 );	
-	always_comb begin
+	//always_comb begin
 	if (en == 1) begin
 		// first row of array is not shifted
-		y[127:120] = a[127:120];
-		y[95:88] = a[95:88];
-		y[63:56] = a[63:56];
-		y[31:24] = a[31:24];
+		assign y[127:120] = a[127:120];
+		assign y[95:88] = a[95:88];
+		assign y[63:56] = a[63:56];
+		assign y[31:24] = a[31:24];
 		
 		// second row of array is left-shifted by one 
-		y[119:112] = a[87:80];
-		y[87:80] = a[55:48];
-		y[55:48] = a[23:16];
-		y[23:16] = a[119:112];
+		assign y[119:112] = a[87:80];
+		assign y[87:80] = a[55:48];
+		assign y[55:48] = a[23:16];
+		assign y[23:16] = a[119:112];
 		
 		// third row of array is left-shifted by two
-		y[111:104] = a[47:40];
-		y[79:72] = a[15:8];
-		y[47:40] = a[111:104];
-		y[15:8] = a[79:72];
+		assign y[111:104] = a[47:40];
+		assign y[79:72] = a[15:8];
+		assign y[47:40] = a[111:104];
+		assign y[15:8] = a[79:72];
 		
 		// fourth row of array is left-shifted by three
-		y[103:96] = a[7:0];
-		y[71:64] = a[103:96];
-		y[39:32] = a[71:64];
-		y[7:0] = a[39:32];
+		assign y[103:96] = a[7:0];
+		assign y[71:64] = a[103:96];
+		assign y[39:32] = a[71:64];
+		assign y[7:0] = a[39:32];
 	end
 	else begin
-		y = a;
+		assign y = a;
 	end
-	end
+	//end
 
 endmodule

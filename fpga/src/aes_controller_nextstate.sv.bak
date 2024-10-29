@@ -11,7 +11,7 @@ module aes_controller_nextstate(
 	output logic [3:0] nextround
 );
 
-	always_comb begin
+	always_comb begins
 		case(state) 
 			// if new data is loaded, then we want to move to state 1
 			0: begin

@@ -29,7 +29,6 @@ module aes_controller(
 			state <= 0;
 			counter <= 0;
 			round <= 0;
-			prevkey <= key;
 		end
 		else begin
 			// if we enter a new round/state, reset counter and send out new round key
