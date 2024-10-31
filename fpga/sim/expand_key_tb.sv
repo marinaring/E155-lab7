@@ -10,16 +10,18 @@
 
 module testbench_expand_key();
     logic clk;
+    logic [3:0] round;
     logic [31:0] rcon;
     logic [127:0] key, roundkey, expected;
     
     // device under test
-    expand_key dut(key, clk, rcon, roundkey);
+    expand_key dut(key, round, clk, roundkey);
     
     // test case
     initial begin   
     // Test case from FIPS-197 Appendix A.1, B
-    key        <= 128'h2b7e151628aed2a6abf7158809cf4f3c;
+    key        <= 128'h2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c;
+    round      <= 1;
     rcon       <= {8'h01, 8'h00, 8'h00, 8'h00};
     expected   <= 128'ha0fafe1788542cb123a339392a6c7605;
     end

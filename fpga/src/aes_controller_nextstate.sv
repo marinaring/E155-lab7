@@ -5,7 +5,7 @@
 
 module aes_controller_nextstate(
 	input logic [3:0] state,
-	input logic [2:0] counter,
+	input logic [8:0] counter,
 	input logic load,
 	output logic [3:0] nextstate,
 	output logic [3:0] nextround
@@ -25,7 +25,7 @@ module aes_controller_nextstate(
 				nextround = 1;
 			   end
 			
-			// for states 2-11 we need a 2 clock cycle delay because of the sequential logic in sbox_sync (used in sub_bytes and expand_key)
+			// for states 2-11 we need a 3 clock cycle delay because of the sequential logic in sbox_sync (used in sub_bytes and expand_key)
 			2: 	begin 
 					if (counter == 3) begin
 						nextstate = 3;
@@ -118,7 +118,7 @@ module aes_controller_nextstate(
 				end 
 			11: begin 
 					if (counter == 3) begin
-						nextstate = 0;
+						nextstate = 12;
 						nextround = 0;
 					end
 					else begin
@@ -127,6 +127,16 @@ module aes_controller_nextstate(
 					end
 				end 
 				
+			12: begin
+					if (counter == '1) begin
+						nextstate = 0; 
+						nextround = 0;
+					end 
+					else begin
+						nextstate = 12;
+						nextround = 0;
+					end	
+				end		
 			default: 
 				begin 
 					nextstate = 0;

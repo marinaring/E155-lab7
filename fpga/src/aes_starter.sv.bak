@@ -33,7 +33,7 @@ module aes_spi(input  logic sck,
     logic         sdodelayed, wasdone;
     logic [127:0] cyphertextcaptured;
                
-    // assert load
+    // assert loadC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv
     // apply 256 sclks to shift in key and plaintext, starting with plaintext[127]
     // then deassert load, wait until done
     // then apply 128 sclks to shift out cyphertext, starting with cyphertext[127]
@@ -79,23 +79,23 @@ module aes_core(input  logic         clk,
                 output logic         done, 
                 output logic [127:0] cyphertext);
 
-	logic sben, sren, mcen, outen;
-	logic [127:0] roundkey, encodedtext, nextencodedtext;
+	logic sben, sren, mcen, outen, nextdone;
+	logic [127:0] roundkey, encodedtext, nextencodedtext, nextencodedtext_sb, nextencodedtext_sr, nextencodedtext_mc;
 
     	// instantiate controller
-	aes_controller controller(clk, load, key, sben, sren, mcen, outen, done, roundkey);
+	aes_controller controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey);
 	
 	// sub bytes
-	sub_words sb(encodedtext, sben, clk, nextencodedtext);
+	sub_words sb(encodedtext, sben, clk, nextencodedtext_sb);
 	
 	// shift rows
-	shift_rows sr(nextencodedtext, sren, nextencodedtext);
+	shift_rows sr(nextencodedtext_sb, sren, nextencodedtext_sr);
 	
 	// mix columns
-	mix_columns mc(nextencodedtext, mcen, nextencodedtext);
+	mix_columns mc(nextencodedtext_sr, mcen, nextencodedtext_mc);
 	
 	// add round key
-	assign nextencodedtext = nextencodedtext ^ roundkey;
+	assign nextencodedtext = nextencodedtext_mc ^ roundkey;
 	
 	always_ff @(posedge clk) begin
 		if (load) begin
@@ -108,11 +108,10 @@ module aes_core(input  logic         clk,
 		else if (outen) begin
 			encodedtext <= nextencodedtext;
 		end
-		else if (done) begin
-			cyphertext <= nextencodedtext;
-		end
+		done <= nextdone
 	end
 	
+	assign cyphertext = encodedtext;
      
 endmodule
 
@@ -134,28 +133,6 @@ module sbox(input  logic [7:0] a,
   assign y = sbox[a];
 endmodule
 
-/////////////////////////////////////////////
-// sbox
-//   Infamous AES byte substitutions with magic numbers
-//   Synchronous version which is mapped to embedded block RAMs (EBR)
-//   Section 5.1.1, Figure 7
-/////////////////////////////////////////////
-module sbox_sync(
-	input		logic [7:0] a,
-	input	 	logic 			clk,
-	output 	logic [7:0] y);
-            
-  // sbox implemented as a ROM
-  // This module is synchronous and will be inferred using BRAMs (Block RAMs)
-  logic [7:0] sbox [0:255];
-
-  initial   $readmemh("sbox.txt", sbox);
-	
-	// Synchronous version
-	always_ff @(posedge clk) begin
-		y <= sbox[a];
-	end
-endmodule
 
 /////////////////////////////////////////////
 // mixcolumns

@@ -16,13 +16,13 @@ module aes_controller(
 	output logic [127:0] roundkey
 );
 
-	logic [1:0] counter, nextcounter;
+	logic stayload;
+	logic [8:0] counter;
 	logic [3:0] state, nextstate, round, nextround;
 	logic [127:0] prevkey;
 	
 	// calculate round key
-	round_constant_decoder(round, constant);
-	expand_key(prevkey, clk, constant, roundkey);
+	expand_key expand(prevkey, round, clk, roundkey);
 	
 	always_ff @(posedge clk) begin
 		if (load) begin
@@ -30,9 +30,10 @@ module aes_controller(
 			counter <= 0;
 			round <= 0;
 			prevkey <= key;
+			stayload <= load;
 		end
 		else begin
-			// if we enter a new round/state, reset counter and send out new round key
+			// if we enter a new round/state, reset counter and calculate new round key
 			if (state != nextstate) begin
 				counter <= 0;
 				prevkey <= roundkey;
@@ -41,21 +42,22 @@ module aes_controller(
 			else begin
 				counter <= counter + 1;
 			end
+			
 			// update states
+			stayload <= 0;
 			state <= nextstate;
 			round <= nextround;
-			counter <= nextcounter;
 		end
 	end
 	
 	// next state logic 
-	aes_controller_nextstate FSM_logic(state, counter, load, nextstate, nextround);
+	aes_controller_nextstate FSM_logic(state, counter, load || stayload, nextstate, nextround);
 	
 	// output logic
-	assign sben = (state != 1) && (state != 0); // sub_bytes enable
-	assign sren = (state != 1) && (state != 0); // shift_rows enable
+	assign sben = (state != 1) && (state != 0) && (state != 12); // sub_bytes enable
+	assign sren = (state != 1) && (state != 0) && (state != 12); // shift_rows enable
 	assign mcen = (state != 1) && (state != 0) && (state != 11); // mix_columns enable
-	assign done = (state == 11) && (counter == 3);	// successfully completed transmission!
-	assign outen = (counter == 3) && (state != 11); // enable next round
+	assign done = (state == 11 && counter == 3) || (state == 12);	// successfully completed transmission!
+	assign outen = (((counter == 3) && (state != 12)) || (state == 1)); //&& (state != 11); // enable next round
 
 endmodule

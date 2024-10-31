@@ -11,7 +11,6 @@ Starting: parse design source files
 (VERI-1482) Analyzing Verilog file 'C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv'
 (VERI-1482) Analyzing Verilog file 'C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv'
 (VERI-1482) Analyzing Verilog file 'C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv'
-INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(24,32-24,40) (VERI-2561) undeclared symbol 'constant', assumed default net type 'wire'
 (VERI-1482) Analyzing Verilog file 'C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv'
 (VERI-1482) Analyzing Verilog file 'C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv'
 (VERI-1482) Analyzing Verilog file 'C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v'
@@ -82,18 +81,7 @@ INFO <2049992> - C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v(16,10-16,27) (VERI-
 INFO <2049992> - C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v(17,10-17,21) (VERI-1328) analyzing included file 'C:/lscc/radiant/2024.1/ip/pmi/pmi_dsp.v'
 INFO <2049992> - C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v(17,10-17,21) (VERI-2320) back to file 'C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v'
 INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv(11,8-11,26) (VERI-1018) compiling module 'testbench_aes_core'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(24,24-24,24) (VERI-1229) module instantiation should have an instance name
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(25,12-25,12) (VERI-1229) module instantiation should have an instance name
 WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv(13,2-13,41) (VERI-1063) instantiating unknown module 'sbox_sync'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(24,32-24,40) (VERI-1330) actual bit length 1 differs from formal bit length 32 for port 'constant'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(25,27-25,35) (VERI-1330) actual bit length 1 differs from formal bit length 32 for port 'rcon'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(52,44-52,51) (VERI-1330) actual bit length 2 differs from formal bit length 3 for port 'counter'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(92,39-92,54) (VERI-1318) variable 'nextencodedtext' might have multiple concurrent drivers
-INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(89,39-89,54) (VERI-1972) found another concurrent driver of 'nextencodedtext' here
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(95,40-95,55) (VERI-1318) variable 'nextencodedtext' might have multiple concurrent drivers
-INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(89,39-89,54) (VERI-1972) found another concurrent driver of 'nextencodedtext' here
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(98,9-98,24) (VERI-1318) variable 'nextencodedtext' might have multiple concurrent drivers
-INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(89,39-89,54) (VERI-1972) found another concurrent driver of 'nextencodedtext' here
 ERROR <2049990> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(103,4-103,8) (VERI-2366) mixed concurrent and procedural assignments on 'sben'
 ERROR <2049990> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(104,4-104,8) (VERI-2366) mixed concurrent and procedural assignments on 'sren'
 ERROR <2049990> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(105,4-105,8) (VERI-2366) mixed concurrent and procedural assignments on 'mcen'
@@ -106,13 +94,8 @@ INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter
 INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv(7,8-7,26) (VERI-1018) compiling module 'testbench_aes_sbox'
 WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv(34,5-34,44) (VERI-1063) instantiating unknown module 'sbox_sync'
 INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv(8,8-8,25) (VERI-1018) compiling module 'testbench_aes_spi'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(24,24-24,24) (VERI-1229) module instantiation should have an instance name
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(25,12-25,12) (VERI-1229) module instantiation should have an instance name
 WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv(13,2-13,41) (VERI-1063) instantiating unknown module 'sbox_sync'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(24,32-24,40) (VERI-1330) actual bit length 1 differs from formal bit length 32 for port 'constant'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(25,27-25,35) (VERI-1330) actual bit length 1 differs from formal bit length 32 for port 'rcon'
-WARNING <2049991> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv(52,44-52,51) (VERI-1330) actual bit length 2 differs from formal bit length 3 for port 'counter'
 INFO <2049992> - C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv(126,8-126,12) (VERI-1018) compiling module 'sbox'
-Done: design load finished with (4) errors, and (17) warnings
+Done: design load finished with (4) errors, and (4) warnings
 
 </PRE></BODY></HTML>
