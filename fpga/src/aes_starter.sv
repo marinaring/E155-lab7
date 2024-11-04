@@ -33,7 +33,7 @@ module aes_spi(input  logic sck,
     logic         sdodelayed, wasdone;
     logic [127:0] cyphertextcaptured;
                
-    // assert loadC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv
+    // assert load
     // apply 256 sclks to shift in key and plaintext, starting with plaintext[127]
     // then deassert load, wait until done
     // then apply 128 sclks to shift out cyphertext, starting with cyphertext[127]
@@ -113,24 +113,6 @@ module aes_core(input  logic         clk,
 	
 	assign cyphertext = encodedtext;
      
-endmodule
-
-/////////////////////////////////////////////
-// sbox
-//   Infamous AES byte substitutions with magic numbers
-//   Combinational version which is mapped to LUTs (logic cells)
-//   Section 5.1.1, Figure 7
-/////////////////////////////////////////////
-
-module sbox(input  logic [7:0] a,
-            output logic [7:0] y);
-            
-  // sbox implemented as a ROM
-  // This module is combinational and will be inferred using LUTs (logic cells)
-  logic [7:0] sbox[0:255];
-
-  initial   $readmemh("sbox.txt", sbox);
-  assign y = sbox[a];
 endmodule
 
 
