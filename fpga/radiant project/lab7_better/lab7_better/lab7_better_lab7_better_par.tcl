@@ -18,6 +18,9 @@ if {[file exists {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant projec
   file copy -force -- {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better_syn.udb} {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/incr/postsyn.udb}
   file copy -force -- {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better_map.udb} {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/incr/postmap.udb}
   file copy -force -- {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better.udb} {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/incr/postpar.udb}
+  if [file exists {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc}] {
+    file copy -force -- {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc} {C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/incr/lastrun.pdc}
+  }
 }
 
 } out]} {

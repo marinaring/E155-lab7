@@ -1,0 +1,8 @@
+ldc_set_location -site {26} [get_ports load]
+ldc_set_location -site {10} [get_ports sdi]
+ldc_set_location -site {12} [get_ports sdo]
+ldc_set_location -site {27} [get_ports done]
+ldc_set_port -iobuf {PULLMODE=100K} [get_ports clk]
+ldc_set_port -iobuf {DRIVE=NA IO_TYPE=LVCMOS33} [get_ports sck]
+ldc_set_port -iobuf {PULLMODE=3P3K} [get_ports sdi]
+ldc_set_port -iobuf {PULLMODE=3P3K} [get_ports load]

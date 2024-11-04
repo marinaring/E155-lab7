@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BuildStatus>
     <Strategy name="Strategy1">
-        <Milestone name="Export" build_result="0" build_time="1730695003">
-            <Task name="Bitgen" build_result="0" update_result="2" update_time="1730695003"/>
+        <Milestone name="Export" build_result="2" build_time="1730706865">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1730706865"/>
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="1730697287">
-            <Task name="Map" build_result="0" update_result="2" update_time="1730697287"/>
-            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Map" build_result="2" build_time="1730706843">
+            <Task name="Map" build_result="2" update_result="0" update_time="1730706843"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1730706839"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="1730697272">
-            <Task name="PAR" build_result="0" update_result="2" update_time="1730697272"/>
-            <Task name="PARTrace" build_result="0" update_result="2" update_time="1730695701"/>
+        <Milestone name="PAR" build_result="2" build_time="1730706855">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1730706855"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1730706857"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="0" build_time="1730697722">
-            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1730697722"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1730697590"/>
-            <Task name="SynTrace" build_result="0" update_result="2" update_time="1730697039"/>
-            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1730697039"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1730705768">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1730705768"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1730705787"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1730705763"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1730705763"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
             <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
@@ -28,13 +28,14 @@
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name="lab7_better_lab7_better.bgn" last_build_time="1730694978" last_build_size="1299"/>
-        <Report name="lab7_better_lab7_better.bin" last_build_time="1730694978" last_build_size="104156"/>
+        <Report name="lab7_better_lab7_better.bgn" last_build_time="1730706865" last_build_size="1256"/>
+        <Report name="lab7_better_lab7_better.bin" last_build_time="1730706865" last_build_size="104156"/>
         <Report name="lab7_better_lab7_better.lsedata" last_build_time="0" last_build_size="0"/>
-        <Report name="lab7_better_lab7_better.twr.html" last_build_time="1730695606" last_build_size="12418"/>
-        <Report name="lab7_better_lab7_better.udb" last_build_time="1730695606" last_build_size="15827"/>
-        <Report name="lab7_better_lab7_better_map.udb" last_build_time="1730697271" last_build_size="10724"/>
-        <Report name="lab7_better_lab7_better_rtl.udb" last_build_time="1730697266" last_build_size="57091"/>
-        <Report name="lab7_better_lab7_better_syn.udb" last_build_time="1730697267" last_build_size="5898"/>
+        <Report name="lab7_better_lab7_better.twr.html" last_build_time="1730706857" last_build_size="12487"/>
+        <Report name="lab7_better_lab7_better.udb" last_build_time="1730706855" last_build_size="214469"/>
+        <Report name="lab7_better_lab7_better_map.udb" last_build_time="1730706843" last_build_size="116305"/>
+        <Report name="lab7_better_lab7_better_rtl.udb" last_build_time="1730705767" last_build_size="78144"/>
+        <Report name="lab7_better_lab7_better_syn.udb" last_build_time="1730705768" last_build_size="103695"/>
     </Strategy>
 </BuildStatus>
+                 

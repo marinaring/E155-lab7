@@ -40,7 +40,82 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn241103213306"></A><B><U><big>pn241103213306</big></U></B>
+#Start recording tcl command: 11/3/2024 20:23:39
+#Project Location: C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better; Project name: lab7_better
+prj_create -name "lab7_better" -impl "lab7_better" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sbox_sync.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv"
+prj_disable_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv"
+prj_disable_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv"
+prj_disable_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv"
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv"
+prj_disable_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv"
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run Map -impl lab7_better
+prj_set_impl_opt -impl "lab7_better" "top" "aes"
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_add_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aescontroller.sv"
+prj_disable_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_remove_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv"
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_remove_source "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+#Stop recording: 11/3/2024 21:33:06
+
+
+
 </PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn241103213306>pn241103213306</A></LI>
+</UL>
+</DIV>
 
 <button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
 <script type="text/javascript">

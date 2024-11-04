@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml" version="Diamond (64-bit) 2024.1.0.34.2" date="Sun Nov 03 21:19:50 2024" vendor="Lattice Semiconductor Corporation" >
+<userSetting name="C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml" version="Diamond (64-bit) 2024.1.0.34.2" date="Sun Nov 03 23:54:25 2024" vendor="Lattice Semiconductor Corporation" >
   <msg mid="35901328" type="Info" internal="true" />
   <msg mid="35921504" type="Info" internal="true" />
   <msg mid="35931002" type="Warning" internal="true" />
   <msg mid="35931038" type="Warning" internal="true" />
+  <msg mid="35901209" type="Warning" internal="true" />
 </userSetting>

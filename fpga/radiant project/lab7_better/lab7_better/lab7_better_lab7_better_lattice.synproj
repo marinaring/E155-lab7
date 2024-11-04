@@ -52,7 +52,8 @@
 "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv"
 "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv"
 "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aescontroller.sv"
+"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
+"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv"
 
 
 -path "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better"

@@ -28,7 +28,7 @@ module aes_core(input  logic         clk,
 	logic [127:0] roundkey, encodedtext, nextencodedtext, nextencodedtext_sb, nextencodedtext_sr, nextencodedtext_mc;
 
     	// instantiate controller
-	aes_controller cool_controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey);
+	aes_controller_new cool_controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey);
 	
 	// sub bytes
 	sub_words sb(encodedtext, sben, clk, nextencodedtext_sb);

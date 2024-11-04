@@ -355,9 +355,137 @@
             <Navigation>8</Navigation>
         </Message>
         <Message>
-            <ID>1009990</ID>
-            <Severity>4096</Severity>
-            <Dynamic>Stopping Synthesis Tool flow due to error.</Dynamic>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv(20): </Dynamic>
+            <Dynamic>aes_core</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(7): </Dynamic>
+            <Dynamic>aes_controller</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv(9): </Dynamic>
+            <Dynamic>expand_key</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv(6): </Dynamic>
+            <Dynamic>round_constant_decoder</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): </Dynamic>
+            <Dynamic>rot_and_sub_bytes</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(8): </Dynamic>
+            <Dynamic>sbox_sync</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
+            <Dynamic>sbox</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(43): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>9</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): </Dynamic>
+            <Dynamic>aes_controller_nextstate</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv(6): </Dynamic>
+            <Dynamic>sub_words</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv(6): </Dynamic>
+            <Dynamic>sub_bytes</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv(14): </Dynamic>
+            <Dynamic>shift_rows</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv(8): </Dynamic>
+            <Dynamic>mix_columns</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv(8): </Dynamic>
+            <Dynamic>mixcolumn</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv(8): </Dynamic>
+            <Dynamic>galoismult</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
+            <Dynamic>sbox_original_ramnet</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35002039</ID>
+            <Severity>1</Severity>
         </Message>
     </Task>
 </BaliMessageLog>

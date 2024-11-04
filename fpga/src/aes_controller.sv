@@ -4,7 +4,7 @@
 */
 
 
-module aes_controller_old(
+module aes_controller(
 	input logic clk,
 	input logic load,
 	input logic [127:0] key,

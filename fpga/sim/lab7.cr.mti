@@ -66,6 +66,13 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	sub_bytes
 
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module testbench_aes_sbox
+
+Top level modules:
+	testbench_aes_sbox
+
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module galoismult
@@ -87,33 +94,12 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	testbench_aes_spi
 
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
-Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_aes_sbox
-
-Top level modules:
-	testbench_aes_sbox
-
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module aes_controller_nextstate
 
 Top level modules:
 	aes_controller_nextstate
-
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
-Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module mixcolumn
-
-Top level modules:
-	mixcolumn
-
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv
-Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module aes_spi
-
-Top level modules:
-	aes_spi
 
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
@@ -122,12 +108,26 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	testbench_mix_columns
 
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_sub_words
+-- Compiling module aes_spi
 
 Top level modules:
-	testbench_sub_words
+	aes_spi
+
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module mixcolumn
+
+Top level modules:
+	mixcolumn
+
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module testbench_aes_core
+
+Top level modules:
+	testbench_aes_core
 
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
@@ -136,12 +136,12 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	round_constant_decoder
 
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_aes_core
+-- Compiling module testbench_sub_words
 
 Top level modules:
-	testbench_aes_core
+	testbench_sub_words
 
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
