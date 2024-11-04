@@ -1,0 +1,9 @@
+@W: CL265 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":42:4:42:12|Removing unused bit 127 of cyphertextcaptured[127:0]. Either assign all bits or reduce the width of the signal.
+@W: CG371 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv":17:12:17:20|Cannot find data file sbox.txt for task $readmemh
+@W: CG532 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv":17:2:17:8|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CL169 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":100:1:100:9|Pruning unused register sben. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":100:1:100:9|Pruning unused register sren. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":100:1:100:9|Pruning unused register mcen. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":100:1:100:9|Pruning unused register outen. Make sure that there are no unused intermediate registers.
+@W: CL279 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv":20:1:20:9|Pruning register bits 7 to 1 of y[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

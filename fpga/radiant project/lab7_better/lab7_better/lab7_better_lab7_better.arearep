@@ -1,0 +1,35 @@
+----------------------------------------------------------------------
+Report for cell aes.TECH
+Register bits:  137 of 5280 (2.595%)
+I/O cells:      6
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                               CCU2         8          100.0
+                            FD1P3XZ       137          100.0
+                                 IB         4          100.0
+                                INV         1          100.0
+                              IOL_B         1          100.0
+                                 OB         2          100.0
+SUB MODULES
+                           aes_core         1
+                            aes_spi         1
+                              TOTAL       156
+----------------------------------------------------------------------
+Report for cell aes_spi.v1
+Instance Path : spi
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                                FA2         8          100.0
+                            FD1P3XZ       136           99.3
+                                INV         1          100.0
+                              IOL_B         1          100.0
+                              TOTAL       147
+----------------------------------------------------------------------
+Report for cell aes_core.v1
+Instance Path : core
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         1            0.7
+                              TOTAL         1

@@ -4,7 +4,7 @@
 */
 
 
-module aes_controller(
+module aes_controller_old(
 	input logic clk,
 	input logic load,
 	input logic [127:0] key,
@@ -21,7 +21,7 @@ module aes_controller(
 	logic [3:0] state, nextstate, round, nextround;
 	logic [127:0] prevkey;
 	
-	// calculate round key
+	//calculate round key
 	expand_key expand(prevkey, round, clk, roundkey);
 	
 	always_ff @(posedge clk) begin
@@ -59,5 +59,4 @@ module aes_controller(
 	assign mcen = (state != 1) && (state != 0) && (state != 11); // mix_columns enable
 	assign done = (state == 11 && counter == 3) || (state == 12);	// successfully completed transmission!
 	assign outen = (((counter == 3) && (state != 12)) || (state == 1)); //&& (state != 11); // enable next round
-
 endmodule

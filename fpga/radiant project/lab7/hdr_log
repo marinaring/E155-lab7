@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Nov  1 19:24:07 2024
+Sun Nov  3 20:16:12 2024
 
 
 Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab7_lab7_lattice.synproj -logfile lab7_lab7_lattice.srp -gui -msgset C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/promote.xml 

@@ -15,11 +15,18 @@
             <Task name="PARTrace" build_result="0" update_result="2" update_time="1730513685"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="1" build_time="1730514249">
-            <Task name="Lattice_Synthesis" build_result="1" update_result="2" update_time="1730514249"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1730514249"/>
-            <Task name="SynTrace" build_result="0" update_result="2" update_time="1730514099"/>
-            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1730514099"/>
+        <Milestone name="Synthesis" build_result="1" build_time="1730693827">
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1730693817"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1730693817"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1730693817"/>
+            <Task name="Synplify_Synthesis" build_result="1" update_result="2" update_time="1730693827"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
+            <Task name="BKM" build_result="0" update_result="3" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
         <Report name="lab7_lab7.bgn" last_build_time="1730513354" last_build_size="1207"/>
         <Report name="lab7_lab7.bin" last_build_time="1730513354" last_build_size="104156"/>

@@ -1,0 +1,34 @@
+---------------------------------------------------
+Report for cell aes
+   Instance path: aes
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       1.00        100.0
+                                  LUT4	        148        100.0
+                               LUTGATE	        132        100.0
+                                LUTCCU	         16        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	          6        100.0
+                                PFUREG	        137        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                              aes_core	          1         0.0
+                               aes_spi	          1        10.8
+---------------------------------------------------
+Report for cell aes_spi
+   Instance path: aes/spi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       1.00        100.0
+                                  LUT4	         16        10.8
+                                LUTCCU	         16        100.0
+                                 IOREG	          1        100.0
+                                PFUREG	        136        99.3
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell aes_core
+   Instance path: aes/core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.7

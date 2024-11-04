@@ -2,362 +2,148 @@
 <BaliMessageLog>
     <Task name="Synthesis">
         <Message>
-            <ID>35001786</ID>
-            <Severity>1</Severity>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
+            <ID>2012915</ID>
             <Severity>16</Severity>
-            <Dynamic>TRIM9</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM8</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM7</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM6</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM5</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM4</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM3</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM2</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM1</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>TRIM0</Dynamic>
-        </Message>
-        <Message>
-            <ID>35935050</ID>
-            <Severity>16</Severity>
-            <Dynamic>I</Dynamic>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(1): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>1</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v(40): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_addsub.v</Navigation>
-            <Navigation>40</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(2): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>2</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v(50): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/adder/rtl/lscc_adder.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_add.v</Navigation>
-            <Navigation>50</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(3): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>3</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v(52): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_complex_mult.v</Navigation>
-            <Navigation>52</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(4): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
+            <Dynamic>CL265 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:42:4:42:12|Removing unused bit 127 of cyphertextcaptured[127:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>42</Navigation>
             <Navigation>4</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v(39): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/counter/rtl/lscc_cntr.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_counter.v</Navigation>
-            <Navigation>39</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(5): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v(44): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo.v</Navigation>
-            <Navigation>44</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(6): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v(47): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_fifo_dc.v</Navigation>
-            <Navigation>47</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(7): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>7</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v(52): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_mac.v</Navigation>
-            <Navigation>52</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(8): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>8</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v(53): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsubsum.v</Navigation>
-            <Navigation>53</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(9): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>9</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v(52): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_multaddsub.v</Navigation>
-            <Navigation>52</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(10): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>10</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v(51): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_mult.v</Navigation>
-            <Navigation>51</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(11): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>11</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v(48): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp.v</Navigation>
-            <Navigation>48</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(12): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
+            <Navigation>42</Navigation>
             <Navigation>12</Navigation>
+            <Navigation>Removing unused bit 127 of cyphertextcaptured[127:0]. Either assign all bits or reduce the width of the signal.</Navigation>
         </Message>
         <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v(45): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq.v</Navigation>
-            <Navigation>45</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(13): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>13</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v(45): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/rom/rtl/lscc_rom.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_rom.v</Navigation>
-            <Navigation>45</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(14): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>14</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v(50): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_sub.v</Navigation>
-            <Navigation>50</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(15): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>15</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v(49): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v</Navigation>
-            <Navigation>49</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(16): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
-            <Navigation>16</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v(45): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v</Navigation>
-            <Navigation>45</Navigation>
-        </Message>
-        <Message>
-            <ID>35901328</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(17): </Dynamic>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_dsp.v</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v</Navigation>
+            <ID>2012641</ID>
+            <Severity>16</Severity>
+            <Dynamic>CG371 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:17:12:17:20|Cannot find data file sbox.txt for task $readmemh</Dynamic>
+            <Navigation>CG371</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
             <Navigation>17</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Cannot find data file sbox.txt for task $readmemh</Navigation>
         </Message>
         <Message>
-            <ID>35921014</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4): </Dynamic>
-            <Dynamic>components</Dynamic>
-            <Navigation>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd</Navigation>
-            <Navigation>4</Navigation>
+            <ID>2012720</ID>
+            <Severity>16</Severity>
+            <Dynamic>CG532 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:17:2:17:8|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Dynamic>
+            <Navigation>CG532</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Navigation>
         </Message>
         <Message>
-            <ID>35921504</ID>
-            <Severity>1</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7</Dynamic>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_starter.sv(6): </Dynamic>
-            <Dynamic>aes</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_starter.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_starter.sv(26): </Dynamic>
-            <Dynamic>aes_spi</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_starter.sv</Navigation>
-            <Navigation>26</Navigation>
-        </Message>
-        <Message>
-            <ID>1009990</ID>
+            <ID>2012659</ID>
             <Severity>4096</Severity>
-            <Dynamic>Stopping Synthesis Tool flow due to error.</Dynamic>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:43:86:46|Only one assignment is legal on sben</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Only one assignment is legal on sben</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:49:86:52|Only one assignment is legal on sren</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Only one assignment is legal on sren</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:55:86:58|Only one assignment is legal on mcen</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>Only one assignment is legal on mcen</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:61:86:65|Only one assignment is legal on outen</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>Only one assignment is legal on outen</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register sben. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register sben. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register sren. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register sren. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register mcen. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register mcen. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register outen. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register outen. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:20:1:20:9|Pruning register bits 7 to 1 of y[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 7 to 1 of y[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

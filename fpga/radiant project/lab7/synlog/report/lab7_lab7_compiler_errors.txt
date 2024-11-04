@@ -1,0 +1,6 @@
+@E: CG410 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":86:43:86:46|Only one assignment is legal on sben
+@E: CG410 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":86:49:86:52|Only one assignment is legal on sren
+@E: CG410 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":86:55:86:58|Only one assignment is legal on mcen
+@E: CG410 :"C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv":86:61:86:65|Only one assignment is legal on outen
+@E::Errors while synthesizing top module aes.
+
