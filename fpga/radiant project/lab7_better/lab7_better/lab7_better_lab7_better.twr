@@ -1,6 +1,6 @@
 Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 2024.1.0.34.2
 
-Sun Nov  3 23:54:17 2024
+Mon Nov  4 13:40:46 2024
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -89,17 +89,21 @@ create_generated_clock,
 ...
 
 -------------------------------------------------------------------
-     Listing 6 Start or End Points      |           Type           
+     Listing 10 Start or End Points     |           Type           
 -------------------------------------------------------------------
 load                                    |                     input
 sdi                                     |                     input
 sck                                     |                     input
 clk                                     |                     input
+state[0]                                |                    output
+state[1]                                |                    output
+state[2]                                |                    output
+state[3]                                |                    output
 done                                    |                    output
 sdo                                     |                    output
 -------------------------------------------------------------------
                                         |                          
-Number of I/O ports without constraint  |                         6
+Number of I/O ports without constraint  |                        10
                                         |                          
 -------------------------------------------------------------------
 

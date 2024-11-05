@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 Report for cell aes.TECH
 Register bits:  659 of 5280 (12.481%)
-I/O cells:      6
+I/O cells:      10
                                   Cell usage:
                                cell     count   Res Usage(%)
                               EBR_B        20          100.0
@@ -11,7 +11,7 @@ I/O cells:      6
                                 INV         1          100.0
                               IOL_B         1          100.0
                                LUT4      1109          100.0
-                                 OB         2          100.0
+                                 OB         6          100.0
 SUB MODULES
                      aes_controller         1
            aes_controller_nextstate         1
@@ -51,7 +51,7 @@ SUB MODULES
                       sub_bytes_U20         1
                       sub_bytes_U21         1
                           sub_words         1
-                              TOTAL      1839
+                              TOTAL      1843
 ----------------------------------------------------------------------
 Report for cell aes_spi.v1
 Instance Path : spi

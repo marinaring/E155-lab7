@@ -325,6 +325,14 @@
             <Navigation>17</Navigation>
         </Message>
         <Message>
+            <ID>35901372</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(22): </Dynamic>
+            <Dynamic>state</Dynamic>
+            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
             <Dynamic>c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4): </Dynamic>
@@ -413,11 +421,11 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(43): </Dynamic>
+            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(44): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>9</Dynamic>
             <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
-            <Navigation>43</Navigation>
+            <Navigation>44</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -486,6 +494,13 @@
         <Message>
             <ID>35002039</ID>
             <Severity>1</Severity>
+        </Message>
+    </Task>
+    <Task name="Export">
+        <Message>
+            <ID>1081100</ID>
+            <Severity>1</Severity>
+            <Dynamic>Bitstream authenticated.</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

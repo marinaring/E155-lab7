@@ -8,10 +8,11 @@ module aes(input  logic clk,
            input  logic sdi,
            output logic sdo,
            input  logic load,
-           output logic done);
+           output logic done, 
+		   output logic [3:0] state);
                     
     logic [127:0] key, plaintext, cyphertext;
             
     aes_spi spi(sck, sdi, sdo, done, key, plaintext, cyphertext);   
-    aes_core core(clk, load, key, plaintext, done, cyphertext);
+    aes_core core(clk, load, key, plaintext, done, cyphertext, state);
 endmodule

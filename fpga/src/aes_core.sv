@@ -22,13 +22,14 @@ module aes_core(input  logic         clk,
                 input  logic [127:0] key, 
                 input  logic [127:0] plaintext, 
                 output logic         done, 
-                output logic [127:0] cyphertext);
+                output logic [127:0] cyphertext, 
+				output logic [3:0] state);
 
 	logic sben, sren, mcen, outen, nextdone;
 	logic [127:0] roundkey, encodedtext, nextencodedtext, nextencodedtext_sb, nextencodedtext_sr, nextencodedtext_mc;
 
     	// instantiate controller
-	aes_controller cool_controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey);
+	aes_controller cool_controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey, state);
 	
 	// sub bytes
 	sub_words sb(encodedtext, sben, clk, nextencodedtext_sb);

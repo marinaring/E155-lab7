@@ -51,8 +51,17 @@
         <Source name="../../src/aes.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog" top_module="aes"/>
         </Source>
-        <Source name="../../src/aescontroller.sv" type="Verilog" type_short="Verilog">
+        <Source name="../../src/aes_controller.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="../../src/rot_and_sub_bytes.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="pin_map.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/lab7_better.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
         </Source>
     </Implementation>
     <Strategy name="Strategy1" file="lab7_better1.sty"/>

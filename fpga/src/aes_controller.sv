@@ -13,7 +13,8 @@ module aes_controller(
 	output logic mcen,
 	output logic outen,
 	output logic done,
-	output logic [127:0] roundkey
+	output logic [127:0] roundkey,
+	output logic [3:0] state // I want to debug state on a pin
 );
 
 	logic stayload;

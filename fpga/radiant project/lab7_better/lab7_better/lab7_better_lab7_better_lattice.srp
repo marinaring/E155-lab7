@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Nov  3 23:36:06 2024
+Mon Nov  4 13:26:52 2024
 
 
 Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab7_better_lab7_better_lattice.synproj -logfile lab7_better_lab7_better_lattice.srp -gui -msgset C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml 
@@ -151,6 +151,7 @@ Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/mixco
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv. VERI-1482
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv. VERI-1482
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv. VERI-1482
+WARNING <35901372> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(22): redeclaration of ansi port state is not allowed. VERI-1372
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd
@@ -168,7 +169,7 @@ INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src
 INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): compiling module rot_and_sub_bytes. VERI-1018
 INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(8): compiling module sbox_sync. VERI-1018
 WARNING <35931002> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): net sbox does not have a driver. VDB-1002
-WARNING <35901209> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(43): expression size 32 truncated to fit in target size 9. VERI-1209
+WARNING <35901209> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(44): expression size 32 truncated to fit in target size 9. VERI-1209
 INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): compiling module aes_controller_nextstate. VERI-1018
 INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv(6): compiling module sub_words. VERI-1018
 INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv(6): compiling module sub_bytes. VERI-1018
@@ -215,7 +216,7 @@ IB => 4
 INV => 1
 IOL_B => 1
 LUT4 => 1109
-OB => 2
+OB => 6
 ################### End Area Report ##################
 Number of odd-length carry chains : 1
 Number of even-length carry chains : 0
@@ -231,14 +232,14 @@ Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : load_c, loads : 269
   Net : core/cool_controller/round[3], loads : 136
-  Net : core/cool_controller/expand/n4322, loads : 130
+  Net : core/cool_controller/expand/n4326, loads : 130
   Net : spi/wasdone, loads : 128
-  Net : core/cool_controller/n2438, loads : 127
+  Net : core/cool_controller/n2442, loads : 127
   Net : core/cool_controller/sben, loads : 127
   Net : core/cool_controller/mcen, loads : 127
-  Net : core/cool_controller/expand/n2722, loads : 127
-  Net : core/cool_controller/state[2], loads : 18
-  Net : core/cool_controller/state[0], loads : 17
+  Net : core/cool_controller/expand/n2726, loads : 127
+  Net : core/cool_controller/state_c_2, loads : 17
+  Net : core/cool_controller/state_c_0, loads : 16
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -251,10 +252,10 @@ Constraint Summary:
 Total number of design rule violations: 0
 ###################  End DRC Report  ######################
 
-Peak Memory Usage: 108 MB
+Peak Memory Usage: 109 MB
 
 --------------------------------------------------------------
 Total CPU Time: 2 secs 
 Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: a333a284ec22239efdb247d08e7d217d79f388c0
+Checksum -- synthesis -- netlist: 1743d65d4c7922ac7efe392b270fa92fd81d825a
