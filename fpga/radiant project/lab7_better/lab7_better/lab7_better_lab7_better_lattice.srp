@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Nov  4 13:26:52 2024
+Mon Nov  4 23:15:46 2024
 
 
 Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab7_better_lab7_better_lattice.synproj -logfile lab7_better_lab7_better_lattice.srp -gui -msgset C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml 
@@ -47,7 +47,7 @@ RWCheckOnRam = 0
 BRAM utilization = 100.000000 %
 DSP usage = true
 DSP utilization = 100.000000 %
-fsm_encoding_style = auto
+fsm_encoding_style = binary
 resolve_mixed_drivers = 0
 fix_gated_clocks = 1
 
@@ -151,7 +151,6 @@ Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/mixco
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv. VERI-1482
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv. VERI-1482
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv. VERI-1482
-WARNING <35901372> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(22): redeclaration of ansi port state is not allowed. VERI-1372
 Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd
@@ -208,14 +207,14 @@ WARNING <35931038> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/
 INFO <35002039> - synthesis: Special Primitives IFD1P3AZ and OFD1P3AZ for ThunderPlus are synthesized using IOL_B.
 
 ################### Begin Area Report (aes)######################
-Number of register bits => 659 of 5280 (12 % )
+Number of register bits => 786 of 5280 (14 % )
 EBR_B => 20
 CCU2 => 5
-FD1P3XZ => 659
+FD1P3XZ => 786
 IB => 4
 INV => 1
 IOL_B => 1
-LUT4 => 1109
+LUT4 => 1110
 OB => 6
 ################### End Area Report ##################
 Number of odd-length carry chains : 1
@@ -230,16 +229,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : load_c, loads : 269
+  Net : load_c, loads : 140
   Net : core/cool_controller/round[3], loads : 136
-  Net : core/cool_controller/expand/n4326, loads : 130
+  Net : core/cool_controller/done_c, loads : 130
+  Net : core/cool_controller/expand/n3628, loads : 130
+  Net : core/n604, loads : 129
+  Net : core/cool_controller/mcen_N_980, loads : 129
   Net : spi/wasdone, loads : 128
-  Net : core/cool_controller/n2442, loads : 127
-  Net : core/cool_controller/sben, loads : 127
+  Net : core/cool_controller/n1962, loads : 127
   Net : core/cool_controller/mcen, loads : 127
-  Net : core/cool_controller/expand/n2726, loads : 127
-  Net : core/cool_controller/state_c_2, loads : 17
-  Net : core/cool_controller/state_c_0, loads : 16
+  Net : core/cool_controller/expand/n2045, loads : 127
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -258,4 +257,4 @@ Peak Memory Usage: 109 MB
 Total CPU Time: 2 secs 
 Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 1743d65d4c7922ac7efe392b270fa92fd81d825a
+Checksum -- synthesis -- netlist: 5a82d903ba3a0c2bb3283d079bac3bea43486e1f

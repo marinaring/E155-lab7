@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2024.1.0.34.2
-Mapped on: Mon Nov  4 13:40:32 2024
+Mapped on: Mon Nov  4 23:12:52 2024
 
 Design Information
 ------------------
@@ -22,11 +22,12 @@ Command line:   map -pdc C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant
 Design Summary
 --------------
 
-   Number of slice registers: 659 out of  5280 (12%)
+   Number of slice registers: 786 out of  5280 (15%)
    Number of I/O registers:      1 out of   117 (1%)
-   Number of LUT4s:           1378 out of  5280 (26%)
-      Number of logic LUT4s:             1110
-      Number of inserted feedthru LUT4s: 258
+   Number of LUT4s:           1507 out of  5280 (29%)
+      Number of logic LUT4s:             1111
+      Number of inserted feedthru LUT4s: 385
+      Number of replicated LUT4s:          1
       Number of ripple logic:              5 (10 LUT4s)
    Number of IO sites used:   10 out of 39 (26%)
       Number of IO sites used for general PIO: 10
@@ -51,13 +52,12 @@ Design Summary
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  2
       Net sck_c: 385 loads, 383 rising, 2 falling (Driver: Port sck)
-      Net clk_c: 291 loads, 291 rising, 0 falling (Driver: Port clk)
+      Net clk_c: 418 loads, 418 rising, 0 falling (Driver: Port clk)
    Number of Clock Enables:  3
-      Net state_pad[0].vcc: 60 loads, 0 SLICEs
-      Net core.n2442: 128 loads, 128 SLICEs
-      Net core.cool_controller.n2726: 128 loads, 128 SLICEs
-   Number of LSRs:  4
-      Net core.sben_N_850: 1 loads, 1 SLICEs
+      Net debug_state_pad[0].vcc: 60 loads, 0 SLICEs
+      Net core.n1962: 128 loads, 128 SLICEs
+      Net core.cool_controller.n2045: 128 loads, 128 SLICEs
+   Number of LSRs:  3
       Pin load: 5 loads, 5 SLICEs (Net: load_c)
       Net core.cool_controller.n587: 5 loads, 5 SLICEs
 
@@ -69,18 +69,18 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
-      Net core.cool_controller.n2062: 1 loads, 1 SLICEs
+      Net core.cool_controller.n1806: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net load_c: 269 loads
-      Net core.sben: 216 loads
+      Net load_c: 140 loads
       Net core.cool_controller.round[3]: 136 loads
-      Net core.cool_controller.expand.n4326: 130 loads
-      Net core.cool_controller.n2726: 128 loads
+      Net done_c: 131 loads
+      Net core.cool_controller.expand.n3628: 130 loads
+      Net core.cool_controller.mcen_N_980: 129 loads
+      Net core.n604: 129 loads
+      Net core.cool_controller.n2045: 128 loads
       Net core.mcen: 128 loads
-      Net core.n2442: 128 loads
+      Net core.n1962: 128 loads
       Net spi.wasdone: 128 loads
-      Net state_pad[0].vcc: 61 loads
-      Net state_c_0: 20 loads
 
 
 
@@ -110,13 +110,13 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+-------+-------+-----------+
 | clk                 | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| state[0]            | OUTPUT    |           |       |       |           |
+| debug_state[0]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| state[1]            | OUTPUT    |           |       |       |           |
+| debug_state[1]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| state[2]            | OUTPUT    |           |       |       |           |
+| debug_state[2]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| state[3]            | OUTPUT    |           |       |       |           |
+| debug_state[3]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | done                | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -143,37 +143,37 @@ ASIC Components
 
 Instance Name: spi/key_i0
          Type: IOLOGIC
-Instance Name: core/sb/word3/b3/cyphertext_0__I_0
+Instance Name: core/sb/word3/b3/encodedtext_0__I_0
          Type: EBR
-Instance Name: core/sb/word3/b2/cyphertext_8__I_0
+Instance Name: core/sb/word3/b2/encodedtext_8__I_0
          Type: EBR
-Instance Name: core/sb/word3/b1/cyphertext_16__I_0
+Instance Name: core/sb/word3/b1/encodedtext_16__I_0
          Type: EBR
-Instance Name: core/sb/word3/b0/cyphertext_24__I_0
+Instance Name: core/sb/word3/b0/encodedtext_24__I_0
          Type: EBR
-Instance Name: core/sb/word2/b3/cyphertext_32__I_0
+Instance Name: core/sb/word2/b3/encodedtext_32__I_0
          Type: EBR
-Instance Name: core/sb/word2/b2/cyphertext_40__I_0
+Instance Name: core/sb/word2/b2/encodedtext_40__I_0
          Type: EBR
-Instance Name: core/sb/word2/b1/cyphertext_48__I_0
+Instance Name: core/sb/word2/b1/encodedtext_48__I_0
          Type: EBR
-Instance Name: core/sb/word2/b0/cyphertext_56__I_0
+Instance Name: core/sb/word2/b0/encodedtext_56__I_0
          Type: EBR
-Instance Name: core/sb/word1/b3/cyphertext_64__I_0
+Instance Name: core/sb/word1/b3/encodedtext_64__I_0
          Type: EBR
-Instance Name: core/sb/word1/b2/cyphertext_72__I_0
+Instance Name: core/sb/word1/b2/encodedtext_72__I_0
          Type: EBR
-Instance Name: core/sb/word1/b1/cyphertext_80__I_0
+Instance Name: core/sb/word1/b1/encodedtext_80__I_0
          Type: EBR
-Instance Name: core/sb/word1/b0/cyphertext_88__I_0
+Instance Name: core/sb/word1/b0/encodedtext_88__I_0
          Type: EBR
-Instance Name: core/sb/word0/b3/cyphertext_96__I_0
+Instance Name: core/sb/word0/b3/encodedtext_96__I_0
          Type: EBR
-Instance Name: core/sb/word0/b2/cyphertext_104__I_0
+Instance Name: core/sb/word0/b2/encodedtext_104__I_0
          Type: EBR
-Instance Name: core/sb/word0/b1/cyphertext_112__I_0
+Instance Name: core/sb/word0/b1/encodedtext_112__I_0
          Type: EBR
-Instance Name: core/sb/word0/b0/cyphertext_120__I_0
+Instance Name: core/sb/word0/b0/encodedtext_120__I_0
          Type: EBR
 Instance Name: core/cool_controller/expand/rsb/b3/prevkey_24__I_0
          Type: EBR
@@ -187,7 +187,7 @@ Instance Name: core/cool_controller/expand/rsb/b0/prevkey_16__I_0
 Constraint Summary
 ------------------
 
-   Total number of constraints: 11
+   Total number of constraints: 13
    Total number of constraints dropped: 0
 
 
@@ -205,8 +205,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 88 MB
-Checksum -- map: 121afbab7a98078d786584e5ad7ed38c389edd7
+   Peak Memory Usage: 91 MB
+Checksum -- map: fe4b069fe0264e1231c7186273227506303b486
 
 
 

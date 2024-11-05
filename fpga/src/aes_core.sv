@@ -25,7 +25,7 @@ module aes_core(input  logic         clk,
                 output logic [127:0] cyphertext, 
 		output logic [3:0] state);
 
-	logic sben, sren, mcen, outen, nextdone, delayed_load;
+	logic sben, sren, mcen, outen, delayed_load;
 	logic [127:0] roundkey, encodedtext, nextencodedtext, nextencodedtext_sb, nextencodedtext_sr, nextencodedtext_mc;
 
     	// instantiate controller
@@ -40,19 +40,25 @@ module aes_core(input  logic         clk,
 	// mix columns
 	mix_columns mc(nextencodedtext_sr, mcen, nextencodedtext_mc);
 	
-	// add round key
-	assign nextencodedtext = (done) ? nextencodedtext : nextencodedtext_mc ^ roundkey;
+	// add round keysim:/testbench_aes_core/done
+	assign nextencodedtext = nextencodedtext_mc ^ roundkey;
 	
 	always_ff @(posedge clk) begin
-		if (delayed_load) begin
+		if (load || delayed_load) begin
 			encodedtext <= plaintext;
 		end
 		else begin
 			encodedtext <= nextencodedtext;
 		end
+
+		if (outen) begin
+			cyphertext <= encodedtext;
+		end
+
 		delayed_load <= load;
+		//done <= nextdone;
 	end
 	
-	assign cyphertext = encodedtext;
+	//assign cyphertext = encodedtext;
      
 endmodule

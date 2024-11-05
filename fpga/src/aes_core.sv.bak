@@ -40,8 +40,8 @@ module aes_core(input  logic         clk,
 	// mix columns
 	mix_columns mc(nextencodedtext_sr, mcen, nextencodedtext_mc);
 	
-	// add round key
-	assign nextencodedtext = (done) ? nextencodedtext_mc ^ roundkey : nextencodedtext;
+	// add round keysim:/testbench_aes_core/done
+	assign nextencodedtext = nextencodedtext_mc ^ roundkey;
 	
 	always_ff @(posedge clk) begin
 		if (delayed_load) begin
@@ -50,9 +50,15 @@ module aes_core(input  logic         clk,
 		else begin
 			encodedtext <= nextencodedtext;
 		end
+
+		if (outen) begin
+			cyphertext <= encodedtext;
+		end
+
 		delayed_load <= load;
+		done <= nextdone;
 	end
 	
-	assign cyphertext = encodedtext;
+	//assign cyphertext = encodedtext;
      
 endmodule

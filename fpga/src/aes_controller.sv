@@ -58,8 +58,8 @@ module aes_controller(
 	assign sben = (state != 1) && (state != 0) && (state != 12); // sub_bytes enable
 	assign sren = (state != 1) && (state != 0) && (state != 12); // shift_rows enable
 	assign mcen = (state != 1) && (state != 0) && (state != 11); // mix_columns enable
-	assign done = (state == 11 && counter == 3) || (state == 12);	// successfully completed transmission!
-	assign outen = (((counter == 3) && (state != 12)) || (state == 1)); //&& (state != 11); // enable next round
+	assign done = (state == 12);	// successfully completed transmission!
+	assign outen = (state == 12 && counter == 0); //&& (state != 11); // enable output
 
 	assign debug_state = state;
 endmodule

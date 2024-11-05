@@ -63,6 +63,9 @@
         <Source name="source/lab7_better.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
+        <Source name="source/lab7_better/sbox.txt" type="Unknown Type" type_short="Unknown" excluded="TRUE">
+            <Options/>
+        </Source>
     </Implementation>
     <Strategy name="Strategy1" file="lab7_better1.sty"/>
 </RadiantProject>

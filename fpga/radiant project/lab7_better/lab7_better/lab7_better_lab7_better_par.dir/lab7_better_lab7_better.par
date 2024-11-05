@@ -1,6 +1,6 @@
 Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
 
-Mon Nov  4 13:40:36 2024
+Mon Nov  4 22:23:26 2024
 
 Command Line: par -w -n 1 -t 1 -s 1 -cores 1 -hsp m -exp parPathBased=ON \
 	lab7_better_lab7_better_map.udb lab7_better_lab7_better.udb 

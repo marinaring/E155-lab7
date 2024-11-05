@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BuildStatus>
     <Strategy name="Strategy1">
-        <Milestone name="Export" build_result="2" build_time="1730756454">
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1730756454"/>
+        <Milestone name="Export" build_result="0" build_time="1730788368">
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1730788368"/>
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1730756433">
-            <Task name="Map" build_result="2" update_result="0" update_time="1730756433"/>
+        <Milestone name="Map" build_result="0" build_time="1730790946">
+            <Task name="Map" build_result="0" update_result="2" update_time="1730790946"/>
             <Task name="MapTrace" build_result="0" update_result="2" update_time="1730706839"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1730756445">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1730756445"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1730756447"/>
+        <Milestone name="PAR" build_result="0" build_time="1730790892">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1730790892"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1730788368"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1730755614">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1730755614"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1730755633"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1730790949">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1730790949"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1730790949"/>
             <Task name="SynTrace" build_result="0" update_result="2" update_time="1730705763"/>
             <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1730705763"/>
         </Milestone>
@@ -28,14 +28,13 @@
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name="lab7_better_lab7_better.bgn" last_build_time="1730756454" last_build_size="1299"/>
-        <Report name="lab7_better_lab7_better.bin" last_build_time="1730756454" last_build_size="104156"/>
+        <Report name="lab7_better_lab7_better.bgn" last_build_time="1730787877" last_build_size="1299"/>
+        <Report name="lab7_better_lab7_better.bin" last_build_time="1730787877" last_build_size="104156"/>
         <Report name="lab7_better_lab7_better.lsedata" last_build_time="0" last_build_size="0"/>
-        <Report name="lab7_better_lab7_better.twr.html" last_build_time="1730756447" last_build_size="12763"/>
-        <Report name="lab7_better_lab7_better.udb" last_build_time="1730756445" last_build_size="214389"/>
-        <Report name="lab7_better_lab7_better_map.udb" last_build_time="1730756432" last_build_size="116850"/>
-        <Report name="lab7_better_lab7_better_rtl.udb" last_build_time="1730755613" last_build_size="78830"/>
-        <Report name="lab7_better_lab7_better_syn.udb" last_build_time="1730755614" last_build_size="104026"/>
+        <Report name="lab7_better_lab7_better.twr.html" last_build_time="1730787817" last_build_size="12763"/>
+        <Report name="lab7_better_lab7_better.udb" last_build_time="1730787815" last_build_size="220260"/>
+        <Report name="lab7_better_lab7_better_map.udb" last_build_time="1730790772" last_build_size="123648"/>
+        <Report name="lab7_better_lab7_better_rtl.udb" last_build_time="1730790947" last_build_size="81376"/>
+        <Report name="lab7_better_lab7_better_syn.udb" last_build_time="1730790949" last_build_size="107221"/>
     </Strategy>
 </BuildStatus>
-                      
