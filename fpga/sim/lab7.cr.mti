@@ -66,6 +66,20 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	expand_key
 
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module testbench_aes_spi
+
+Top level modules:
+	testbench_aes_spi
+
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module aes_core
+
+Top level modules:
+	aes_core
+
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module galoismult
@@ -79,13 +93,6 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 
 Top level modules:
 	sbox_sync
-
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
-Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_aes_spi
-
-Top level modules:
-	testbench_aes_spi
 
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
@@ -122,6 +129,13 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	testbench_mix_columns
 
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module testbench_aes_core
+
+Top level modules:
+	testbench_aes_core
+
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module testbench_sub_words
@@ -136,12 +150,12 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 Top level modules:
 	round_constant_decoder
 
-} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
--- Compiling module testbench_aes_core
+-- Compiling module aes
 
 Top level modules:
-	testbench_aes_core
+	aes
 
 } {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
@@ -149,5 +163,12 @@ Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oc
 
 Top level modules:
 	testbench_aes_controller
+
+} {} {}} C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module aes_controller
+
+Top level modules:
+	aes_controller
 
 } {} {}}

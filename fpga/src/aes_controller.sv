@@ -14,7 +14,7 @@ module aes_controller(
 	output logic outen,
 	output logic done,
 	output logic [127:0] roundkey,
-	output logic [3:0] state // I want to debug state on a pin
+	output logic [3:0] debug_state // I want to debug state on a pin
 );
 
 	logic stayload;
@@ -60,4 +60,6 @@ module aes_controller(
 	assign mcen = (state != 1) && (state != 0) && (state != 11); // mix_columns enable
 	assign done = (state == 11 && counter == 3) || (state == 12);	// successfully completed transmission!
 	assign outen = (((counter == 3) && (state != 12)) || (state == 1)); //&& (state != 11); // enable next round
+
+	assign debug_state = state;
 endmodule

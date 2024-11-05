@@ -27,7 +27,7 @@ module aes_controller_nextstate(
 			
 			// for states 2-11 we need a 3 clock cycle delay because of the sequential logic in sbox_sync (used in sub_bytes and expand_key)
 			2: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 3;
 						nextround = 2;
 					end
@@ -37,7 +37,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			3: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 4;
 						nextround = 3;
 					end
@@ -47,7 +47,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			4: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 5;
 						nextround = 4;
 					end
@@ -57,7 +57,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			5: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 6;
 						nextround = 5;
 					end
@@ -67,7 +67,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			6: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 7;
 						nextround = 6;
 					end
@@ -77,7 +77,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			7: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 8;
 						nextround = 7;
 					end
@@ -87,7 +87,7 @@ module aes_controller_nextstate(
 					end
 				end  
 			8: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 9;
 						nextround = 8;
 					end
@@ -97,7 +97,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			9: 	begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 10;
 						nextround = 9;
 					end
@@ -107,7 +107,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			10: begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 11;
 						nextround = 10;
 					end
@@ -117,7 +117,7 @@ module aes_controller_nextstate(
 					end
 				end 
 			11: begin 
-					if (counter == 3) begin
+					if (counter == 1) begin
 						nextstate = 12;
 						nextround = 0;
 					end

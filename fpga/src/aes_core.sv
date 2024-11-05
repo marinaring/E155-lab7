@@ -23,13 +23,13 @@ module aes_core(input  logic         clk,
                 input  logic [127:0] plaintext, 
                 output logic         done, 
                 output logic [127:0] cyphertext, 
-				output logic [3:0] state);
+		output logic [3:0] state);
 
-	logic sben, sren, mcen, outen, nextdone;
+	logic sben, sren, mcen, outen, nextdone, delayed_load;
 	logic [127:0] roundkey, encodedtext, nextencodedtext, nextencodedtext_sb, nextencodedtext_sr, nextencodedtext_mc;
 
     	// instantiate controller
-	aes_controller cool_controller(clk, load, key, sben, sren, mcen, outen, nextdone, roundkey, state);
+	aes_controller cool_controller(clk, load, key, sben, sren, mcen, outen, done, roundkey, state);
 	
 	// sub bytes
 	sub_words sb(encodedtext, sben, clk, nextencodedtext_sb);
@@ -41,16 +41,16 @@ module aes_core(input  logic         clk,
 	mix_columns mc(nextencodedtext_sr, mcen, nextencodedtext_mc);
 	
 	// add round key
-	assign nextencodedtext = nextencodedtext_mc ^ roundkey;
+	assign nextencodedtext = (done) ? nextencodedtext : nextencodedtext_mc ^ roundkey;
 	
 	always_ff @(posedge clk) begin
-		if (load) begin
+		if (delayed_load) begin
 			encodedtext <= plaintext;
 		end
-		else if (outen) begin
+		else begin
 			encodedtext <= nextencodedtext;
 		end
-		done <= nextdone;
+		delayed_load <= load;
 	end
 	
 	assign cyphertext = encodedtext;

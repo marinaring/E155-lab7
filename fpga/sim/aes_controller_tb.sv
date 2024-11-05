@@ -9,11 +9,12 @@ module testbench_aes_controller();
 	logic clk, load;
 	logic sben, sben_expected, sren, sren_expected, mcen, mcen_expected, outen, outen_expected, done;
 	logic [127:0] roundkey, roundkey_expected;
+	logic [3:0] debug_state;
 
 	logic [31:0] vectornum, errors;
 	logic [259:0] testvectors[10000:0];
 	
-	aes_controller controller(clk, load, key, sben, sren, mcen, outen, done, roundkey);
+	aes_controller controller(clk, load, key, sben, sren, mcen, outen, done, roundkey, debug_state);
 	
 	always 
 		begin

@@ -10,12 +10,13 @@ module testbench_aes_spi();
     logic [127:0] key, plaintext, cyphertext, expected;
 		logic [255:0] comb;
     logic [8:0] i;
+    logic [3:0] debug_state;
 
     // Added delayd
     logic delay;
     
     // device under test
-    aes dut(clk, sck, sdi, sdo, load, done);
+    aes dut(clk, sck, sdi, sdo, load, done, debug_state);
     
     // test case
     initial begin   

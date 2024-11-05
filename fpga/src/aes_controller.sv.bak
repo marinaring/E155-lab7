@@ -4,7 +4,7 @@
 */
 
 
-module aes_controller_old(
+module aes_controller(
 	input logic clk,
 	input logic load,
 	input logic [127:0] key,
@@ -13,7 +13,8 @@ module aes_controller_old(
 	output logic mcen,
 	output logic outen,
 	output logic done,
-	output logic [127:0] roundkey
+	output logic [127:0] roundkey,
+	output logic [3:0] debug_state // I want to debug state on a pin
 );
 
 	logic stayload;
