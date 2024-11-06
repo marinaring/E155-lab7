@@ -8,15 +8,16 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2024.1.0.34.2
-Mapped on: Mon Nov  4 23:12:52 2024
+Mapped on: Tue Nov  5 11:58:46 2024
 
 Design Information
 ------------------
 
-Command line:   map -pdc C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant
-     project/lab7_better/pin_map.pdc -i lab7_better_lab7_better_syn.udb -o
-     lab7_better_lab7_better_map.udb -mp lab7_better_lab7_better.mrp -hierrpt
-     -gui -msgset C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant
+Command line:   map -pdc C:/Users/Marina/OneDrive/Documents/Marina/College/Micro
+     Ps/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc -i
+     lab7_better_lab7_better_syn.udb -o lab7_better_lab7_better_map.udb -mp
+     lab7_better_lab7_better.mrp -hierrpt -gui -msgset C:/Users/Marina/OneDrive/
+     Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant
      project/lab7_better/promote.xml
 
 Design Summary
@@ -24,23 +25,23 @@ Design Summary
 
    Number of slice registers: 786 out of  5280 (15%)
    Number of I/O registers:      1 out of   117 (1%)
-   Number of LUT4s:           1507 out of  5280 (29%)
-      Number of logic LUT4s:             1111
+   Number of LUT4s:           1499 out of  5280 (28%)
+      Number of logic LUT4s:             1103
       Number of inserted feedthru LUT4s: 385
       Number of replicated LUT4s:          1
       Number of ripple logic:              5 (10 LUT4s)
-   Number of IO sites used:   10 out of 39 (26%)
-      Number of IO sites used for general PIO: 10
+   Number of IO sites used:   9 out of 39 (23%)
+      Number of IO sites used for general PIO: 9
       Number of IO sites used for I3C: 0 out of 2 (0%)
       (note: If I3C is not used, its site can be used as general PIO)
-      Number of IO sites used for PIO+I3C: 10 out of 36 (28%)
+      Number of IO sites used for PIO+I3C: 9 out of 36 (25%)
       Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
       (note: If RGB LED drivers are not used, sites can be used as OD outputs,
        see TN1288 iCE40 LED Driver Usage Guide)
-      Number of IO sites used for PIO+I3C+OD+RGB: 10 out of 39 (26%)
+      Number of IO sites used for PIO+I3C+OD+RGB: 9 out of 39 (23%)
    Number of DSPs:             0 out of 8 (0%)
    Number of I2Cs:             0 out of 2 (0%)
-   Number of High Speed OSCs:  0 out of 1 (0%)
+   Number of High Speed OSCs:  1 out of 1 (100%)
    Number of Low Speed OSCs:   0 out of 1 (0%)
    Number of RGB PWM:          0 out of 1 (0%)
    Number of RGB Drivers:      0 out of 1 (0%)
@@ -51,15 +52,14 @@ Design Summary
    Number of EBRs:             20 out of 30 (67%)
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  2
+      Net clk: 418 loads, 418 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
       Net sck_c: 385 loads, 383 rising, 2 falling (Driver: Port sck)
-      Net clk_c: 418 loads, 418 rising, 0 falling (Driver: Port clk)
    Number of Clock Enables:  3
-      Net debug_state_pad[0].vcc: 60 loads, 0 SLICEs
-      Net core.n1962: 128 loads, 128 SLICEs
-      Net core.cool_controller.n2045: 128 loads, 128 SLICEs
+      Net VCC_net: 61 loads, 0 SLICEs
+      Net core.n1942: 128 loads, 128 SLICEs
+      Net core.cool_controller.n2191: 128 loads, 128 SLICEs
    Number of LSRs:  3
       Pin load: 5 loads, 5 SLICEs (Net: load_c)
-      Net core.cool_controller.n587: 5 loads, 5 SLICEs
 
                                     Page 1
 
@@ -69,31 +69,41 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
-      Net core.cool_controller.n1806: 1 loads, 1 SLICEs
+      Net core.cool_controller.n587: 5 loads, 5 SLICEs
+      Net core.cool_controller.n1781: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
+      Net core.sben: 213 loads
       Net load_c: 140 loads
       Net core.cool_controller.round[3]: 136 loads
-      Net done_c: 131 loads
-      Net core.cool_controller.expand.n3628: 130 loads
-      Net core.cool_controller.mcen_N_980: 129 loads
+      Net core.cool_controller.expand.n3700: 130 loads
       Net core.n604: 129 loads
-      Net core.cool_controller.n2045: 128 loads
-      Net core.mcen: 128 loads
-      Net core.n1962: 128 loads
+      Net core.cool_controller.n2191: 128 loads
+      Net core.n1942: 128 loads
+      Net core.n8: 128 loads
       Net spi.wasdone: 128 loads
+      Net VCC_net: 63 loads
 
 
 
 
 
-   Number of warnings:  0
+   Number of warnings:  4
    Number of criticals: 0
    Number of errors:    0
 
 Design Errors/Criticals/Warnings
 --------------------------------
 
-   No error, critical, or warning presents.
+WARNING <1026001> - map: C:/Users/Marina/OneDrive/Documents/Marina/College/Micro
+     Ps/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc (5) : No port
+     matched 'clk'.
+WARNING <1027013> - map: No port matched 'clk'.
+WARNING <1026001> - map: C:/Users/Marina/OneDrive/Documents/Marina/College/Micro
+     Ps/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc (5) : Can't
+     resolve object 'clk' in constraint 'ldc_set_port -iobuf {PULLMODE=100K}
+     [get_ports clk]'.
+WARNING <1011001> - map: Remove invalid constraint 'ldc_set_port -iobuf
+     {PULLMODE=100K} [get_ports clk]'.
 
 IO (PIO) Attributes
 -------------------
@@ -108,8 +118,6 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+-------+-------+-----------+
 | sck                 | INPUT     | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| clk                 | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
 | debug_state[0]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | debug_state[1]      | OUTPUT    |           |       |       |           |
@@ -119,6 +127,15 @@ IO (PIO) Attributes
 | debug_state[3]      | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | done                | OUTPUT    |           |       |       |           |
+
+                                    Page 2
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
 +---------------------+-----------+-----------+-------+-------+-----------+
 | sdo                 | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -127,20 +144,23 @@ Removed logic
 -------------
 
 Block spi/i10_1_lut was optimized away.
+Block i1 was optimized away.
 
-                                    Page 2
+OSC Summary
+-----------
 
-
-
-
-
-Removed logic (cont)
---------------------
-Block load_pad.vlo_inst was optimized away.
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            hf_osc
+  Power UP:                            NODE     VCC_net
+  Enable Signal:                       NODE     VCC_net
+  OSC Output:                          NODE     clk
+  DIV Setting:                                  01
 
 ASIC Components
 ---------------
 
+Instance Name: hf_osc
+         Type: HFOSC
 Instance Name: spi/key_i0
          Type: IOLOGIC
 Instance Name: core/sb/word3/b3/encodedtext_0__I_0
@@ -173,6 +193,15 @@ Instance Name: core/sb/word0/b2/encodedtext_104__I_0
          Type: EBR
 Instance Name: core/sb/word0/b1/encodedtext_112__I_0
          Type: EBR
+
+                                    Page 3
+
+
+
+
+
+ASIC Components (cont)
+----------------------
 Instance Name: core/sb/word0/b0/encodedtext_120__I_0
          Type: EBR
 Instance Name: core/cool_controller/expand/rsb/b3/prevkey_24__I_0
@@ -187,47 +216,18 @@ Instance Name: core/cool_controller/expand/rsb/b0/prevkey_16__I_0
 Constraint Summary
 ------------------
 
-   Total number of constraints: 13
-   Total number of constraints dropped: 0
-
-
-
-
-
-                                    Page 3
-
-
-
-
+   Total number of constraints: 14
+   Total number of constraints dropped: 1
+   Dropped constraint is:
+     ldc_set_port -iobuf {PULLMODE=100K} [get_ports clk]
 
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 0 secs
+   Total CPU Time: 1 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 91 MB
-Checksum -- map: fe4b069fe0264e1231c7186273227506303b486
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   Peak Memory Usage: 90 MB
+Checksum -- map: 4611b8cc9f78e7b42156782a9f4d63edfbdfd8eb
 
 
 

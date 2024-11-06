@@ -1,7 +1,11 @@
 m255
 K4
 z2
-!s11f vlog 2021.4 2021.10, Oct 14 2021
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -9,323 +13,360 @@ z2
 !i10f 100
 cModel Technology
 dC:/lscc/radiant/3.2/modeltech/win32loem
+T_opt
+!s110 1730835467
+VXb29VE2^jHbQOBZ?GzJ:40
+04 17 4 work testbench_aes_spi fast 0
+=3-4c796ed76ee1-672a740a-351-711c
+R1
+!s12f OEM25U50 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
 vaes
-Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s125 LATTICE_CONN
-Z2 !s110 1730787518
+Z3 2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_starter.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1730835459
 !i10b 1
-!s100 <2VK6UlFgSlB67<`9;3[N0
-IVK36AZ0gkO?TnI:<9JGLb3
+!s100 L6acinb=hk1C<LjM@oR4V2
+I^]f1Y4SIXgTJld`L<QgQX3
 S1
-Z3 dC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim
-w1730783454
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv
-!i122 1371
-Z4 L0 6 13
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OT;L;2021.4;73
+Z6 dC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim
+Z7 w1730829849
+Z8 8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_starter.sv
+Z9 FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_starter.sv
+!i122 1475
+Z10 L0 6 12
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2024.2;79
 r1
 !s85 0
 31
-Z7 !s108 1730787518.000000
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv|
-!s101 -O0
-!i113 1
-Z8 o-work work -sv -O0
-Z9 tCvgOpt 0
+Z13 !s108 1730835459.000000
+Z14 !s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_starter.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_starter.sv|
+!i113 0
+Z16 o-work work -sv
+R2
 vaes_controller
-R0
-R2
+2C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aes_controller.sv
+R4
+Z17 !s110 1730835458
 !i10b 1
-!s100 eW_G9bK:MMSJ7j16d9B4O0
-IM?@`nTnLD091S:Y@fzAM=1
+!s100 ]j>983R4blFcbYdFj462@0
+Idh8ZSe^bNV=IinfZETeUU3
 S1
-R3
-w1730787514
-Z10 8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
-Z11 FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
-!i122 1353
-L0 7 59
-R5
 R6
+w1730835453
+8C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aes_controller.sv
+FC:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aes_controller.sv
+!i122 1468
+L0 7 59
+R11
+R12
 r1
 !s85 0
 31
-R7
-Z12 !s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vaes_controller_nextstate
-R0
+Z18 !s108 1730835458.000000
+!s107 C:\\Users\\Marina\\OneDrive\\Documents\\Marina\\College\\MicroPs\\E155-lab7\\fpga\\src\\aes_controller.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aes_controller.sv|
+!i113 0
+R16
 R2
+vaes_controller_new
+2C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aescontroller.sv
+R4
+R5
+!i10b 1
+!s100 FKoPI6RCbChEVo^X1MR<d1
+IDmP`6R:j:^4]1KXJ3ZSN91
+S1
+R6
+R7
+8C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aescontroller.sv
+FC:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aescontroller.sv
+!i122 1476
+L0 6 56
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 C:\\Users\\Marina\\OneDrive\\Documents\\Marina\\College\\MicroPs\\E155-lab7\\fpga\\src\\aescontroller.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\src\aescontroller.sv|
+!i113 0
+R16
+R2
+vaes_controller_nextstate
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
+R4
+R5
 !i10b 1
 !s100 emWMIiXC=iXUadSAUa0Rf0
-In<>[W1:Zc^ZM>T?LTAzA@2
+IZ6FmEL24?@dVNm:W?YHG02
 S1
-R3
-w1730785073
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
-!i122 1354
-L0 6 144
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
+!i122 1469
+L0 6 144
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv|
+!i113 0
+R16
+R2
 vaes_controller_old
-R0
+Z19 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 !s110 1730705458
 !i10b 1
 !s100 [ES;<J=6IncJ>nh6AzGF@1
 IklHecFbcOHcg2jYDzQ>7d0
 S1
-R3
+Z20 dC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim
 w1730697047
-R10
-R11
+8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
+FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
 !i122 825
 L0 7 56
-R5
-R6
+R11
+Z21 OT;L;2021.4;73
 r1
 !s85 0
 31
 !s108 1730705458.000000
-R12
-R13
+!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv|
 !s101 -O0
 !i113 1
-R8
-R9
+Z22 o-work work -sv -O0
+R2
 vaes_core
-R0
-R2
-!i10b 1
-!s100 IVNW`4Ao:O^C3iREVl@GL0
-IdQ?YGT6B[7aj:UaBGKK7l0
-S1
-R3
-w1730787109
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv
-!i122 1372
-L0 20 45
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vaes_spi
-R0
-R2
-!i10b 1
-!s100 bY[YEoNQ0?^IE]]n?miZ12
-I^ZGVaKanH7;MGC1A9PC=o2
-S1
-R3
-Z14 w1730783340
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv
-!i122 1373
-L0 8 29
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vexpand_key
-R0
-R2
-!i10b 1
-!s100 T>7kn?NCWTajZY=^?`WZk0
-I<HA::Q^2CTn;<DCjbbg`j1
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv
-!i122 1359
-L0 9 30
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vgaloismult
-R0
-Z15 !s110 1730787519
-!i10b 1
-!s100 bKOb;ofVe35^G>AL<;DiS1
-IAeRgi;9WCB88fHnN_4[?;3
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv
-!i122 1374
-L0 8 8
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vmix_columns
-R0
-R15
-!i10b 1
-!s100 CmGC?TXchV_UlkJL5Ib3K3
-IL94]:Mn]dmNGHH:C`4mW92
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv
-!i122 1375
-L0 8 22
-R5
-R6
-r1
-!s85 0
-31
-Z16 !s108 1730787519.000000
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vmixcolumn
-R0
-R15
-!i10b 1
-!s100 eL^5ZhIblGikW[d@F3MDa0
-I]S]k6Q`7CLXFFPMVHlXCk2
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
-!i122 1376
-L0 8 19
-R5
-R6
-r1
-!s85 0
-31
-R16
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vrot_and_sub_bytes
-R0
-R1
-R2
-!i10b 1
-!s100 z=6CVUHi=J<doL6GLfgB?3
-IzG1I1D[@VQHXa`<Z44=<[1
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
-!i122 1360
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv
 R4
 R5
+!i10b 1
+!s100 <N<L7oZ[9HV1n=H3GazeL2
+I;IEP`6dEa4hzlN]ajZUAf3
+S1
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv
+!i122 1470
+L0 20 45
+R11
+R12
 r1
 !s85 0
 31
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv|
+!i113 0
+R16
+R2
+vaes_spi
+R3
+R4
+R5
+!i10b 1
+!s100 <Li9?55zzR@I>CcR;93nH1
+IPkG]IdI^RNgTSY:eSGF6;1
+S1
+R6
 R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv|
-!s101 -O0
-!i113 1
 R8
 R9
-vround_constant_decoder
-R0
+!i122 1475
+L0 26 29
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
 R2
+vexpand_key
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv
+R4
+R5
+!i10b 1
+!s100 T>7kn?NCWTajZY=^?`WZk0
+IR@jaIJe`V_^?R0:N<53d;0
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv
+!i122 1477
+L0 9 30
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv|
+!i113 0
+R16
+R2
+vgaloismult
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv
+R4
+R5
+!i10b 1
+!s100 bKOb;ofVe35^G>AL<;DiS1
+I[jVUF7RgTX22UIZ`WGnNn2
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv
+!i122 1478
+L0 8 8
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv|
+!i113 0
+R16
+R2
+vmix_columns
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv
+R4
+Z23 !s110 1730835460
+!i10b 1
+!s100 CmGC?TXchV_UlkJL5Ib3K3
+IDjY6dWjR?oN[z3`zejPF51
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv
+!i122 1479
+L0 8 22
+R11
+R12
+r1
+!s85 0
+31
+Z24 !s108 1730835460.000000
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv|
+!i113 0
+R16
+R2
+vmixcolumn
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
+R4
+R23
+!i10b 1
+!s100 eL^5ZhIblGikW[d@F3MDa0
+IPWZ43]b9LMPdzDzN6GOgQ3
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
+!i122 1480
+L0 8 19
+R11
+R12
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv|
+!i113 0
+R16
+R2
+vrot_and_sub_bytes
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
+R4
+R23
+!i10b 1
+!s100 z=6CVUHi=J<doL6GLfgB?3
+IcJA:f`GmO7DhOZ5EEC6fj2
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
+!i122 1481
+L0 6 13
+R11
+R12
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv|
+!i113 0
+R16
+R2
+vround_constant_decoder
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
+R4
+R23
 !i10b 1
 !s100 2zb6;Xcg86K]P2VYa??7`2
-I1AVmgjPQcX@86z:Rjf88Y0
+IVSSZVIL9ZO;c@>LaB=:bi3
 S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
-!i122 1361
-L0 6 22
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
+!i122 1482
+L0 6 22
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv|
+!i113 0
+R16
+R2
 vsbox
-R0
+R19
 !s110 1730414486
 !i10b 1
 !s100 dYWkUz46SX1j3XQE<1N_20
 IZ>234j_KedWTW?Q;Ke;7L0
 S1
-R3
+R20
 w1730412607
 8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv
 FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv
 !i122 770
 L0 125 10
-R5
-R6
+R11
+R21
 r1
 !s85 0
 31
@@ -334,331 +375,330 @@ r1
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_starter.sv|
 !s101 -O0
 !i113 1
-R8
-R9
-vsbox_sync
-R0
+R22
 R2
+vsbox_sync
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv
+R4
+R23
 !i10b 1
 !s100 PMJ^1dZLGKR4Ve?6C7ZhP2
-I;Yjn5jL7a:2h87VhoTLh]0
+I_G@bZ`j9Mj0g1zYRPW__W1
 S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sbox_sync.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sbox_sync.sv
-!i122 1366
-L0 8 16
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv
+!i122 1483
+L0 8 16
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sbox_sync.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sbox_sync.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vshift_rows
-R0
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv|
+!i113 0
+R16
 R2
+vshift_rows
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv
+R4
+R23
 !i10b 1
 !s100 UlR0Wlc[FEAdT7f1P<9T<0
-IZBe:RWF@c7F_ES3PWY08c2
+Iz_>TXfU3nB:96j1X7KHmG0
 S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv
-!i122 1362
-L0 14 37
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv
+!i122 1484
+L0 14 37
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vsub_bytes
-R0
-R1
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv|
+!i113 0
+R16
 R2
+vsub_bytes
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
+R4
+R23
 !i10b 1
 !s100 zJ^QRRllaAXE1<SJDo3j<0
-InlXScXnUR]CW;GC::LhZk2
+Io_kiLR8mXiFN80_aGB>cL0
 S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
-!i122 1363
-L0 6 12
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
+!i122 1485
+R10
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vsub_words
-R0
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv|
+!i113 0
+R16
 R2
+vsub_words
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv
+R4
+R23
 !i10b 1
 !s100 :Q7dW27j9j7fIb3A<aTmX1
-In[YLDDXd2F1_AK]0MhbnU0
+IbkLZREi]`0N[:^9e>V=Nj2
 S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv
-!i122 1364
-L0 6 23
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv
+!i122 1486
+L0 6 23
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vtestbench_aes_controller
-R0
+R24
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv|
+!i113 0
+R16
 R2
+vtestbench_aes_controller
+2C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\sim\aes_controller_tb.sv
+R4
+R17
 !i10b 1
 !s100 _26XnnLW5aX7Q4lg61k;G0
-IRO1mDISM6o4RzfFE4O?mm3
+I@GKjFM9;6X2IzoYZ3=kaa0
 S1
-R3
-w1730783570
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv
-!i122 1370
+R6
+R7
+8C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\sim\aes_controller_tb.sv
+FC:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\sim\aes_controller_tb.sv
+!i122 1461
 L0 7 48
-R5
-R6
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/aes_controller_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R18
+!s107 C:\\Users\\Marina\\OneDrive\\Documents\\Marina\\College\\MicroPs\\E155-lab7\\fpga\\sim\\aes_controller_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\Marina\OneDrive\Documents\Marina\College\MicroPs\E155-lab7\fpga\sim\aes_controller_tb.sv|
+!i113 0
+R16
+R2
 vtestbench_aes_core
-R0
-R2
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+R4
+R5
 !i10b 1
-!s100 JG5^^FZ^HR`46VBg?9UWm3
-IiJHXkk9C?i;`Y_01mnIBG0
+!s100 BdK@YK`G24XDbjlk^<VRc1
+IeZb;INC0QZn=[MF8]:@Y;0
 S1
-R3
-w1730783606
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
-!i122 1355
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv
+!i122 1471
 L0 11 43
-R5
-R6
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core_tb.sv|
+!i113 0
+R16
+R2
 vtestbench_aes_sbox
-R0
-R2
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
+R4
+R5
 !i10b 1
-!s100 Nmef5zQfeg8YD40R?7AW03
-I^nf>DUVQU70kcV^WO1_Mc0
+!s100 E802:^hIgYbZd^<0leGNb3
+I?z3G4]@WY@IJ66bI44K[W2
 S1
-R3
-w1730783331
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
-!i122 1356
+R6
+w1730829845
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv
+!i122 1472
 L0 7 67
-R5
-R6
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_sbox_tb.sv|
+!i113 0
+R16
+R2
 vtestbench_aes_spi
-R0
-R2
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
+R4
+R5
 !i10b 1
-!s100 lldj4GThbQUQ2UOIj;PHQ1
-I4n^JEc;glVh^TNm@cSe1b0
+!s100 @PB>e`QXkAiQQFW2QQnm:2
+InD4iOfiFG`Ohe<G_f90Sn2
 S1
-R3
-w1730785787
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
-!i122 1357
+R6
+w1730834958
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv
+!i122 1474
 L0 8 74
-R5
-R6
+R11
+R12
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+R13
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi_tb.sv|
+!i113 0
+R16
+R2
 vtestbench_expand_key
-R0
-R2
-!i10b 1
-!s100 R^aE3c@A;0[PEZ3^4=?=j0
-IkF>kOoFQ8dlgQOD1R1ZdE3
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv
-!i122 1369
-L0 11 31
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vtestbench_mix_columns
-R0
-R2
-!i10b 1
-!s100 >[]T^bm9f2;V=THGhGZ2n2
-I=C9]enFL;amIij?PjjZ]`1
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
-!i122 1368
-Z17 L0 11 29
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
-vtestbench_shift_rows
-R0
-R2
-!i10b 1
-!s100 WaPj;DCJAgig`XcnR_X6Z3
-I6B4mR`MAoXzL8UhKnG=d<0
-S1
-R3
-R14
-8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv
-FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv
-!i122 1367
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv
+R4
 R17
-R5
+!i10b 1
+!s100 zbP8LkNcbOkE`aagQ4>GT3
+ID4AKGN?VCnmVG>9dE:leV3
+S1
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv
+!i122 1462
+L0 11 31
+R11
+R12
 r1
 !s85 0
 31
+R18
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/expand_key_tb.sv|
+!i113 0
+R16
+R2
+vtestbench_mix_columns
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
+R4
+R17
+!i10b 1
+!s100 QV6dbKIX[aQO7j<C@M0>N3
+IcYfdzEo7XIMmCM;MUCHH70
+S1
+R6
 R7
-!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv|
-!s101 -O0
-!i113 1
-R8
-R9
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv
+!i122 1463
+Z25 L0 11 29
+R11
+R12
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/mix_columns_tb.sv|
+!i113 0
+R16
+R2
+vtestbench_shift_rows
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv
+R4
+R17
+!i10b 1
+!s100 <1gl5A[SBBdgU31a51ZVB1
+IhX>NQ5:??m3kcnaeEDJzH2
+S1
+R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv
+!i122 1465
+R25
+R11
+R12
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/shift_rows_tb.sv|
+!i113 0
+R16
+R2
 vtestbench_sub_bytes
-R0
+R19
 !s110 1730183294
 !i10b 1
 !s100 5IGI?20>9]2]T_5;5:`nB1
 IFzE^WPbKzblMC;1EQbNzG3
 S1
-R3
+R20
 w1730183275
-Z18 8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
-Z19 FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+8C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+FC:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
 !i122 33
-Z20 L0 11 30
-R5
-R6
+Z26 L0 11 30
+R11
+R21
 r1
 !s85 0
 31
 !s108 1730183293.000000
-Z21 !s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
-Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
+!s107 C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
 !s101 -O0
 !i113 1
-R8
-R9
-vtestbench_sub_words
-R0
+R22
 R2
+vtestbench_sub_words
+2C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+R4
+R17
 !i10b 1
-!s100 =BKd3>HGcMP>oWK`d4?Ig2
-IQ^6IV;S]S8OXMZ_QQ3am=0
+!s100 g3GdPSd5c0gHzMKGTOYab3
+IzUh3ZP9ISII0B1cWRaUS>3
 S1
-R3
-R14
-R18
-R19
-!i122 1365
-R20
-R5
 R6
+R7
+8C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+FC:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv
+!i122 1466
+R26
+R11
+R12
 r1
 !s85 0
 31
-R7
-R21
-R22
-!s101 -O0
-!i113 1
-R8
-R9
+R18
+!s107 C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/sim/sub_words_tb.sv|
+!i113 0
+R16
+R2

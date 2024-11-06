@@ -128,15 +128,13 @@ module aes_controller_nextstate(
 				end 
 				
 			12: begin
-					if (counter == '1) begin
-						nextstate = 0; 
-						nextround = 0;
-					end 
-					else begin
-						nextstate = 12;
-						nextround = 0;
-					end	
-				end		
+					nextstate = 13;
+					nextround = 0;
+				end	
+			13: begin
+					nextstate = 13;
+					nextround = 0; 
+				end
 			default: 
 				begin 
 					nextstate = 0;

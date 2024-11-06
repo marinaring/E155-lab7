@@ -1,0 +1,16 @@
+#Start recording tcl command: 11/5/2024 11:22:20
+#Project Location: C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better; Project name: lab7_better
+prj_open "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better.rdf"
+prj_run PAR -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_set_strategy_value -strategy Strategy1 lse_decode_unreachable_states=True lse_fsm_encoding=Auto
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+prj_run PAR -impl lab7_better
+prj_run Export -impl lab7_better
+#Stop recording: 11/5/2024 16:01:49

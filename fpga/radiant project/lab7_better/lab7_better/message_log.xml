@@ -336,156 +336,211 @@
             <ID>35921504</ID>
             <Severity>1</Severity>
             <Dynamic></Dynamic>
-            <Dynamic>C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better</Dynamic>
+            <Dynamic>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better</Dynamic>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes.sv(6): </Dynamic>
             <Dynamic>aes</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv(8): </Dynamic>
+            <Dynamic>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): </Dynamic>
+            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
+            <Navigation>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
+            <Navigation>756</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_spi.sv(8): </Dynamic>
             <Dynamic>aes_spi</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_spi.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv(20): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_core.sv(20): </Dynamic>
             <Dynamic>aes_core</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_core.sv</Navigation>
             <Navigation>20</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(7): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv(7): </Dynamic>
             <Dynamic>aes_controller</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
             <Navigation>7</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv(9): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/expand_key.sv(9): </Dynamic>
             <Dynamic>expand_key</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/expand_key.sv</Navigation>
             <Navigation>9</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/round_constant_decoder.sv(6): </Dynamic>
             <Dynamic>round_constant_decoder</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/round_constant_decoder.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): </Dynamic>
             <Dynamic>rot_and_sub_bytes</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(8): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(8): </Dynamic>
             <Dynamic>sbox_sync</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
             <Dynamic>sbox</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
             <Navigation>15</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(44): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv(44): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>9</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv</Navigation>
             <Navigation>44</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): </Dynamic>
             <Dynamic>aes_controller_nextstate</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_words.sv(6): </Dynamic>
             <Dynamic>sub_words</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_words.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv(6): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_bytes.sv(6): </Dynamic>
             <Dynamic>sub_bytes</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_bytes.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv(14): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/shift_rows.sv(14): </Dynamic>
             <Dynamic>shift_rows</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/shift_rows.sv</Navigation>
             <Navigation>14</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv(8): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mix_columns.sv(8): </Dynamic>
             <Dynamic>mix_columns</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mix_columns.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv(8): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mixcolumn.sv(8): </Dynamic>
             <Dynamic>mixcolumn</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mixcolumn.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv(8): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/galoismult.sv(8): </Dynamic>
             <Dynamic>galoismult</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/galoismult.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35931038</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
+            <Dynamic>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(15): </Dynamic>
             <Dynamic>sbox_original_ramnet</Dynamic>
-            <Navigation>c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
+            <Navigation>c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv</Navigation>
             <Navigation>15</Navigation>
         </Message>
         <Message>
             <ID>35002039</ID>
             <Severity>1</Severity>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>No port matched 'clk'.</Dynamic>
+            <Navigation>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>Can't resolve object 'clk' in constraint 'ldc_set_port -iobuf {PULLMODE=100K} [get_ports clk]'.</Dynamic>
+            <Navigation>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_port -iobuf {PULLMODE=100K} [get_ports clk]</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Export">
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>No port matched 'clk'.</Dynamic>
+            <Navigation>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/pin_map.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1081100</ID>
+            <Severity>1</Severity>
+            <Dynamic>Bitstream authenticated.</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

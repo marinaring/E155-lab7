@@ -18,8 +18,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>../../lab7_better/lab7_better_lab7_better.bin</File>
-			<FileTime>11/04/24 13:40:54</FileTime>
-			<JedecChecksum>0xC738</JedecChecksum>
+			<FileTime>11/05/24 10:09:42</FileTime>
+			<JedecChecksum>0x7150</JedecChecksum>
 			<MemoryType>External SPI Flash Memory (SPI FLASH)</MemoryType>
 			<Operation>Erase,Program,Verify</Operation>
 			<Option>
@@ -75,11 +75,11 @@
 				<Device>
 					<Pos>1</Pos>
 					<Name></Name>
-					<File>C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better.bin</File>
+					<File>C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better.bin</File>
 					<LocalChainList>
 						<LocalDevice index="-99"
 							name="Unknown"
-							file="C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better.bin"/>
+							file="C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better/lab7_better_lab7_better.bin"/>
 					</LocalChainList>
 					<Option>
 						<SVFVendor>JTAG STANDARD</SVFVendor>

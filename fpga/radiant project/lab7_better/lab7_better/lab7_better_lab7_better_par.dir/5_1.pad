@@ -6,13 +6,12 @@ Performance Grade:      High-Performance_1.2V
 PACKAGE:          SG48
 Package Status:                     Preliminary    Version 1.5
 
-Mon Nov  4 23:14:51 2024
+Tue Nov  5 11:59:03 2024
 
 Pinout by Port Name:
 +----------------+----------+--------------+-------+------------------------------------------+
 | Port Name      | Pin/Bank | Buffer Type  | Site  | Properties                               |
 +----------------+----------+--------------+-------+------------------------------------------+
-| clk            | 37/0     | LVCMOS33_IN  | PR14A | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
 | debug_state[0] | 47/2     | LVCMOS33_OUT | PL7A  | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | debug_state[1] | 48/2     | LVCMOS33_OUT | PL8A  | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | debug_state[2] | 4/2      | LVCMOS33_OUT | PL10A | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
@@ -64,7 +63,7 @@ Pinout by Pin Number:
 | 34/0     |     unused, PULL:UP |            |              | PR14B |                  |
 | 35/0     |     unused, PULL:UP |            |              | PR13B | GPLL_IN/PCLKT0_1 |
 | 36/0     |     unused, PULL:UP |            |              | PR10B |                  |
-| 37/0     | clk                 |            | LVCMOS33_IN  | PR14A | PCLKT0_0         |
+| 37/0     |     unused, PULL:UP |            |              | PR14A | PCLKT0_0         |
 | 38/0     |     unused, PULL:UP |            |              | PR9B  |                  |
 | 39/0     |                     |            |              | PR5A  | RGB0             |
 | 40/0     |                     |            |              | PR6A  | RGB1             |
@@ -98,7 +97,6 @@ Pinout by Pin Number:
 
 Locate Constraints for each Pin: 
 
-ldc_set_location -site {37} [ get_ports {clk} ]
 ldc_set_location -site {47} [ get_ports {debug_state[0]} ]
 ldc_set_location -site {48} [ get_ports {debug_state[1]} ]
 ldc_set_location -site {4} [ get_ports {debug_state[2]} ]
@@ -115,5 +113,5 @@ ldc_set_location -site {12} [ get_ports {sdo} ]
 
 Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
 
-Mon Nov  4 23:14:51 2024
+Tue Nov  5 11:59:03 2024
 

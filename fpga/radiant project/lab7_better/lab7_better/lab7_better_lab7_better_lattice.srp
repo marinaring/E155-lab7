@@ -5,10 +5,10 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Nov  4 23:15:46 2024
+Tue Nov  5 11:58:33 2024
 
 
-Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab7_better_lab7_better_lattice.synproj -logfile lab7_better_lab7_better_lattice.srp -gui -msgset C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml 
+Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab7_better_lab7_better_lattice.synproj -logfile lab7_better_lab7_better_lattice.srp -gui -msgset C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml 
 
 Synthesis options:
 The -a option is iCE40UP.
@@ -47,7 +47,7 @@ RWCheckOnRam = 0
 BRAM utilization = 100.000000 %
 DSP usage = true
 DSP utilization = 100.000000 %
-fsm_encoding_style = binary
+fsm_encoding_style = auto
 resolve_mixed_drivers = 0
 fix_gated_clocks = 1
 
@@ -67,26 +67,26 @@ ROM style = auto
 RAM style = auto
 The -comp option is FALSE.
 The -syn option is FALSE.
--path C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better (searchpath added)
--path C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better (searchpath added)
+-path C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better (searchpath added)
+-path C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better (searchpath added)
 -path C:/lscc/radiant/2024.1/ispfpga/ice40tp/data (searchpath added)
 Mixed language design
 Verilog design file = C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sbox_sync.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv
-Verilog design file = C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller.sv
+Verilog design file = C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv
 VHDL library = pmi
 VHDL design file = C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd
 The -r option is OFF. [ Remove LOC Properties is OFF. ]
@@ -137,45 +137,46 @@ INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dp_be.v(49): 
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(16): analyzing included file c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v. VERI-1328
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file c:/lscc/radiant/2024.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(17): analyzing included file c:/lscc/radiant/2024.1/ip/pmi/pmi_dsp.v. VERI-1328
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv. VERI-1482
-Analyzing Verilog file c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/expand_key.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/round_constant_decoder.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/shift_rows.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_bytes.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_words.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_core.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mix_columns.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/galoismult.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mixcolumn.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_spi.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv. VERI-1482
+Analyzing Verilog file c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd
 
 INFO <35921014> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd(4): analyzing package components. VHDL-1014
-INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better". VHDL-1504
+INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better". VHDL-1504
 Top module language type = Verilog.
 Top module name (Verilog, mixed language): aes
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes.sv(6): compiling module aes. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_spi.sv(8): compiling module aes_spi. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_core.sv(20): compiling module aes_core. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(7): compiling module aes_controller. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/expand_key.sv(9): compiling module expand_key. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/round_constant_decoder.sv(6): compiling module round_constant_decoder. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): compiling module rot_and_sub_bytes. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(8): compiling module sbox_sync. VERI-1018
-WARNING <35931002> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): net sbox does not have a driver. VDB-1002
-WARNING <35901209> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller.sv(44): expression size 32 truncated to fit in target size 9. VERI-1209
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): compiling module aes_controller_nextstate. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_words.sv(6): compiling module sub_words. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sub_bytes.sv(6): compiling module sub_bytes. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/shift_rows.sv(14): compiling module shift_rows. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/mix_columns.sv(8): compiling module mix_columns. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/mixcolumn.sv(8): compiling module mixcolumn. VERI-1018
-INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/galoismult.sv(8): compiling module galoismult. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes.sv(6): compiling module aes. VERI-1018
+INFO <35901018> - synthesis: C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2'b01). VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_spi.sv(8): compiling module aes_spi. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_core.sv(20): compiling module aes_core. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv(7): compiling module aes_controller. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/expand_key.sv(9): compiling module expand_key. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/round_constant_decoder.sv(6): compiling module round_constant_decoder. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/rot_and_sub_bytes.sv(6): compiling module rot_and_sub_bytes. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(8): compiling module sbox_sync. VERI-1018
+WARNING <35931002> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(15): net sbox does not have a driver. VDB-1002
+WARNING <35901209> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller.sv(44): expression size 32 truncated to fit in target size 9. VERI-1209
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/aes_controller_nextstate.sv(6): compiling module aes_controller_nextstate. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_words.sv(6): compiling module sub_words. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sub_bytes.sv(6): compiling module sub_bytes. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/shift_rows.sv(14): compiling module shift_rows. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mix_columns.sv(8): compiling module mix_columns. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/mixcolumn.sv(8): compiling module mixcolumn. VERI-1018
+INFO <35901018> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/galoismult.sv(8): compiling module galoismult. VERI-1018
                                                          
 
 
@@ -200,7 +201,7 @@ INFO <35901018> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src
                                                          
 
 
-WARNING <35931038> - synthesis: c:/users/mring/documents/microps/e155-lab7/fpga/src/sbox_sync.sv(15): ram sbox_original_ramnet has no write-port on it. VDB-1038
+WARNING <35931038> - synthesis: c:/users/marina/onedrive/documents/marina/college/microps/e155-lab7/fpga/src/sbox_sync.sv(15): ram sbox_original_ramnet has no write-port on it. VDB-1038
 
 
 
@@ -211,10 +212,11 @@ Number of register bits => 786 of 5280 (14 % )
 EBR_B => 20
 CCU2 => 5
 FD1P3XZ => 786
-IB => 4
+HSOSC_CORE => 1
+IB => 3
 INV => 1
 IOL_B => 1
-LUT4 => 1110
+LUT4 => 1102
 OB => 6
 ################### End Area Report ##################
 Number of odd-length carry chains : 1
@@ -223,22 +225,22 @@ Number of even-length carry chains : 0
 ################### Begin Clock Report ######################
 Clock Nets
 Number of Clocks: 2
-  Net : clk_c, loads : 0
   Net : sck_c, loads : 1
+  Net : clk, loads : 0
 Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : load_c, loads : 140
   Net : core/cool_controller/round[3], loads : 136
-  Net : core/cool_controller/done_c, loads : 130
-  Net : core/cool_controller/expand/n3628, loads : 130
   Net : core/n604, loads : 129
-  Net : core/cool_controller/mcen_N_980, loads : 129
+  Net : core/cool_controller/expand/decode/n3700, loads : 129
   Net : spi/wasdone, loads : 128
-  Net : core/cool_controller/n1962, loads : 127
-  Net : core/cool_controller/mcen, loads : 127
-  Net : core/cool_controller/expand/n2045, loads : 127
+  Net : core/cool_controller/n1942, loads : 128
+  Net : core/cool_controller/sben, loads : 127
+  Net : core/cool_controller/n8, loads : 127
+  Net : core/cool_controller/expand/n2191, loads : 127
+  Net : core/cool_controller/debug_state_c_1, loads : 18
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -251,10 +253,10 @@ Constraint Summary:
 Total number of design rule violations: 0
 ###################  End DRC Report  ######################
 
-Peak Memory Usage: 109 MB
+Peak Memory Usage: 111 MB
 
 --------------------------------------------------------------
-Total CPU Time: 2 secs 
-Total REAL Time: 2 secs 
+Total CPU Time: 7 secs 
+Total REAL Time: 7 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 5a82d903ba3a0c2bb3283d079bac3bea43486e1f
+Checksum -- synthesis -- netlist: 90db9d2ee1f56c94efb21f07903b61e79b6195e

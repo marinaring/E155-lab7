@@ -16,7 +16,7 @@ module testbench_aes_spi();
     logic delay;
     
     // device under test
-    aes dut(clk, sck, sdi, sdo, load, done, debug_state);
+    aes dut(clk, sck, sdi, sdo, load, done);
     
     // test case
     initial begin   

@@ -1,16 +1,17 @@
 ----------------------------------------------------------------------
 Report for cell aes.TECH
 Register bits:  786 of 5280 (14.886%)
-I/O cells:      10
+I/O cells:      9
                                   Cell usage:
                                cell     count   Res Usage(%)
                               EBR_B        20          100.0
                                CCU2         5          100.0
                             FD1P3XZ       786          100.0
-                                 IB         4          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         3          100.0
                                 INV         1          100.0
                               IOL_B         1          100.0
-                               LUT4      1110          100.0
+                               LUT4      1102          100.0
                                  OB         6          100.0
 SUB MODULES
                      aes_controller         1
@@ -45,12 +46,13 @@ SUB MODULES
                        sbox_sync_U7         1
                        sbox_sync_U8         1
                        sbox_sync_U9         1
+                         shift_rows         1
                           sub_bytes         1
                       sub_bytes_U19         1
                       sub_bytes_U20         1
                       sub_bytes_U21         1
                           sub_words         1
-                              TOTAL      1970
+                              TOTAL      1963
 ----------------------------------------------------------------------
 Report for cell aes_spi.v1
 Instance Path : spi
@@ -59,7 +61,7 @@ Instance Path : spi
                             FD1P3XZ       384           48.9
                                 INV         1          100.0
                               IOL_B         1          100.0
-                               LUT4       128           11.5
+                               LUT4       128           11.6
                               TOTAL       514
 ----------------------------------------------------------------------
 Report for cell aes_core.v1
@@ -69,7 +71,7 @@ Instance Path : core
                               EBR_B        20          100.0
                                 FA2         5          100.0
                             FD1P3XZ       402           51.1
-                               LUT4       982           88.5
+                               LUT4       974           88.4
 SUB MODULES
                      aes_controller         1
            aes_controller_nextstate         1
@@ -101,18 +103,27 @@ SUB MODULES
                        sbox_sync_U7         1
                        sbox_sync_U8         1
                        sbox_sync_U9         1
+                         shift_rows         1
                           sub_bytes         1
                       sub_bytes_U19         1
                       sub_bytes_U20         1
                       sub_bytes_U21         1
                           sub_words         1
-                              TOTAL      1444
+                              TOTAL      1437
+----------------------------------------------------------------------
+Report for cell shift_rows.v1
+Instance Path : core.sr
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        96            8.7
+                              TOTAL        96
 ----------------------------------------------------------------------
 Report for cell sub_words.v1
 Instance Path : core.sb
                                   Cell usage:
                                cell     count   Res Usage(%)
                               EBR_B        16           80.0
+                               LUT4        32            2.9
 SUB MODULES
                       sbox_sync_U10         1
                       sbox_sync_U11         1
@@ -134,7 +145,7 @@ SUB MODULES
                       sub_bytes_U19         1
                       sub_bytes_U20         1
                       sub_bytes_U21         1
-                              TOTAL        36
+                              TOTAL        68
 ----------------------------------------------------------------------
 Report for cell sub_bytes.v1
 Instance Path : core.sb.word3
@@ -300,7 +311,7 @@ Report for cell mix_columns.v1
 Instance Path : core.mc
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4       353           31.8
+                               LUT4       353           32.0
 SUB MODULES
                           mixcolumn         1
                       mixcolumn_U22         1
@@ -312,29 +323,29 @@ Report for cell mixcolumn.v1
 Instance Path : core.mc.mc3
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        42            3.8
-                              TOTAL        42
+                               LUT4        39            3.5
+                              TOTAL        39
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U22.v1
 Instance Path : core.mc.mc2
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        45            4.1
-                              TOTAL        45
+                               LUT4        44            4.0
+                              TOTAL        44
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U23.v1
 Instance Path : core.mc.mc1
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        46            4.1
-                              TOTAL        46
+                               LUT4        44            4.0
+                              TOTAL        44
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U24.v1
 Instance Path : core.mc.mc0
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        36            3.2
-                              TOTAL        36
+                               LUT4        41            3.7
+                              TOTAL        41
 ----------------------------------------------------------------------
 Report for cell aes_controller.v1
 Instance Path : core.cool_controller
@@ -343,7 +354,7 @@ Instance Path : core.cool_controller
                               EBR_B         4           20.0
                                 FA2         5          100.0
                             FD1P3XZ       146           18.6
-                               LUT4       500           45.0
+                               LUT4       364           33.0
 SUB MODULES
            aes_controller_nextstate         1
                          expand_key         1
@@ -353,14 +364,14 @@ SUB MODULES
                        sbox_sync_U0         1
                        sbox_sync_U1         1
                        sbox_sync_U2         1
-                              TOTAL       663
+                              TOTAL       527
 ----------------------------------------------------------------------
 Report for cell expand_key.v1
 Instance Path : core.cool_controller.expand
                                   Cell usage:
                                cell     count   Res Usage(%)
                               EBR_B         4           20.0
-                               LUT4       266           24.0
+                               LUT4       265           24.0
 SUB MODULES
                   rot_and_sub_bytes         1
              round_constant_decoder         1
@@ -368,7 +379,7 @@ SUB MODULES
                        sbox_sync_U0         1
                        sbox_sync_U1         1
                        sbox_sync_U2         1
-                              TOTAL       276
+                              TOTAL       275
 ----------------------------------------------------------------------
 Report for cell rot_and_sub_bytes.v1
 Instance Path : core.cool_controller.expand.rsb
@@ -421,5 +432,5 @@ Report for cell aes_controller_nextstate.v1
 Instance Path : core.cool_controller.FSM_logic
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        26            2.3
-                              TOTAL        26
+                               LUT4        23            2.1
+                              TOTAL        23

@@ -16,12 +16,12 @@
 -remove_duplicate_regs 1
 
 -max_fanout 1000
--fsm_encoding_style Binary
+-fsm_encoding_style Auto
 
 -fix_gated_clocks 1
 -loop_limit 1950
 
-
+-decode_unreachable_states
 
 
 
@@ -36,27 +36,27 @@
 -use_io_insertion 1
 
 -resolve_mixed_drivers 0
--path "C:/lscc/radiant/2024.1/ispfpga/ice40tp/data" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better" "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better"
+-path "C:/lscc/radiant/2024.1/ispfpga/ice40tp/data" "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/lab7_better" "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better"
 -ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/expand_key.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sbox_sync.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/shift_rows.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_bytes.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/sub_words.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_core.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mix_columns.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/galoismult.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/mixcolumn.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_spi.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
-"C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv"
+-sver "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller_nextstate.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/expand_key.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/round_constant_decoder.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sbox_sync.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/shift_rows.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_bytes.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/sub_words.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_core.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mix_columns.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/galoismult.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/mixcolumn.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_spi.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/aes_controller.sv"
+"C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/src/rot_and_sub_bytes.sv"
 
 
--path "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7_better"
+-path "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better"
 -top aes
 -udb "lab7_better_lab7_better_rtl.udb"
 -output_hdl "lab7_better_lab7_better.vm"
