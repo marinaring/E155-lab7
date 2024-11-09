@@ -53,76 +53,7 @@ module aes_spi(input  logic sck,
     assign sdo = (done & !wasdone) ? cyphertext[127] : sdodelayed;
 endmodule
 
-/////////////////////////////////////////////
-// aes_core
-//   top level AES encryption module
-//   when load is asserted, takes the current key and plaintext
-//   generates cyphertext and asserts done when complete 11 cycles later
-// 
-//   See FIPS-197 with Nk = 4, Nb = 4, Nr = 10
-//
-//   The key and message are 128-bit values packed into an array of 16 bytes as
-//   shown below
-//        [127:120] [95:88] [63:56] [31:24]     S0,0    S0,1    S0,2    S0,3
-//        [119:112] [87:80] [55:48] [23:16]     S1,0    S1,1    S1,2    S1,3
-//        [111:104] [79:72] [47:40] [15:8]      S2,0    S2,1    S2,2    S2,3
-//        [103:96]  [71:64] [39:32] [7:0]       S3,0    S3,1    S3,2    S3,3
-//
-//   Equivalently, the values are packed into four words as given
-//        [127:96]  [95:64] [63:32] [31:0]      w[0]    w[1]    w[2]    w[3]
-/////////////////////////////////////////////
 
-module aes_core(input  logic         clk, 
-                input  logic         load,
-                input  logic [127:0] key, 
-                input  logic [127:0] plaintext, 
-                output logic         done, 
-                output logic [127:0] cyphertext);
-
-    // TODO: Your code goes here
-    
-endmodule
-
-/////////////////////////////////////////////
-// sbox
-//   Infamous AES byte substitutions with magic numbers
-//   Combinational version which is mapped to LUTs (logic cells)
-//   Section 5.1.1, Figure 7
-/////////////////////////////////////////////
-
-module sbox(input  logic [7:0] a,
-            output logic [7:0] y);
-            
-  // sbox implemented as a ROM
-  // This module is combinational and will be inferred using LUTs (logic cells)
-  logic [7:0] sbox[0:255];
-
-  initial   $readmemh("sbox.txt", sbox);
-  assign y = sbox[a];
-endmodule
-
-/////////////////////////////////////////////
-// sbox
-//   Infamous AES byte substitutions with magic numbers
-//   Synchronous version which is mapped to embedded block RAMs (EBR)
-//   Section 5.1.1, Figure 7
-/////////////////////////////////////////////
-module sbox_sync(
-	input		logic [7:0] a,
-	input	 	logic 			clk,
-	output 	logic [7:0] y);
-            
-  // sbox implemented as a ROM
-  // This module is synchronous and will be inferred using BRAMs (Block RAMs)
-  logic [7:0] sbox [0:255];
-
-  initial   $readmemh("sbox.txt", sbox);
-	
-	// Synchronous version
-	always_ff @(posedge clk) begin
-		y <= sbox[a];
-	end
-endmodule
 
 /////////////////////////////////////////////
 // mixcolumns
@@ -131,13 +62,27 @@ endmodule
 //   Same operation performed on each of four columns
 /////////////////////////////////////////////
 
-module mixcolumns(input  logic [127:0] a,
+module mix_columns(input  logic [127:0] a,
+				   input  logic en,
                   output logic [127:0] y);
 
-  mixcolumn mc0(a[127:96], y[127:96]);
-  mixcolumn mc1(a[95:64],  y[95:64]);
-  mixcolumn mc2(a[63:32],  y[63:32]);
-  mixcolumn mc3(a[31:0],   y[31:0]);
+	logic [31:0] c0, c1, c2, c3;	
+
+	mixcolumn mc0(a[127:96], c0);
+	mixcolumn mc1(a[95:64],  c1);
+	mixcolumn mc2(a[63:32],  c2);
+	mixcolumn mc3(a[31:0],   c3);
+
+
+
+	always_comb begin
+		if (en) begin
+			y = {c0, c1, c2, c3};		
+	  	end
+		else begin
+			y = a;
+		end
+	end
 endmodule
 
 /////////////////////////////////////////////

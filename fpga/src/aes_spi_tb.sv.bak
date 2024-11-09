@@ -10,12 +10,13 @@ module testbench_aes_spi();
     logic [127:0] key, plaintext, cyphertext, expected;
 		logic [255:0] comb;
     logic [8:0] i;
+    logic [3:0] debug_state;
 
-    // Added delay
+    // Added delayd
     logic delay;
     
     // device under test
-    aes dut(clk, sck, sdi, sdo, load, done);
+    aes dut(clk, sck, sdi, sdo, load, done, debug_state);
     
     // test case
     initial begin   
@@ -29,6 +30,13 @@ module testbench_aes_spi();
 //      plaintext <= 128'h00112233445566778899AABBCCDDEEFF;
 //      expected  <= 128'h69C4E0D86A7B0430D8CDB78070B4C55A;
     end
+
+ // Create dumpfile
+ initial
+   begin
+     $dumpfile("testbench_aes_spi.vcd");
+     $dumpvars(0, testbench_aes_spi);
+   end
     
     // generate clock and load signals
 		always begin

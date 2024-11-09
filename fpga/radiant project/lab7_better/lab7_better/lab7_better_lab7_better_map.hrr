@@ -1,0 +1,325 @@
+---------------------------------------------------
+Report for cell aes
+   Instance path: aes
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       1.00        100.0
+                                  LUT4	       1499        100.0
+                               LUTGATE	       1489        100.0
+                                LUTCCU	         10        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	          9        100.0
+                                PFUREG	        786        100.0
+                                   EBR	         20        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                              aes_core	          1        59.8
+                               aes_spi	          1         8.5
+---------------------------------------------------
+Report for cell aes_spi
+   Instance path: aes/spi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       1.00        100.0
+                                  LUT4	        128         8.5
+                               LUTGATE	        128         8.6
+                                 IOREG	          1        100.0
+                                PFUREG	        384        48.9
+---------------------------------------------------
+Report for cell aes_core
+   Instance path: aes/core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        896        59.8
+                               LUTGATE	        886        59.5
+                                LUTCCU	         10        100.0
+                                PFUREG	        402        51.1
+                                   EBR	         20        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                        aes_controller	          1        24.7
+                           mix_columns	          1        17.9
+                            shift_rows	          1         6.4
+                             sub_words	          1         2.1
+---------------------------------------------------
+Report for cell shift_rows
+   Instance path: aes/core/sr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         96         6.4
+                               LUTGATE	         96         6.4
+---------------------------------------------------
+Report for cell sub_words
+   Instance path: aes/core/sb
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         32         2.1
+                               LUTGATE	         32         2.1
+                                   EBR	         16        80.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                             sub_bytes	          1         0.0
+                         sub_bytes_U19	          1         0.0
+                         sub_bytes_U20	          1         0.0
+                         sub_bytes_U21	          1         0.0
+---------------------------------------------------
+Report for cell sub_bytes
+   Instance path: aes/core/sb/word3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                          sbox_sync_U3	          1         0.0
+                          sbox_sync_U4	          1         0.0
+                          sbox_sync_U5	          1         0.0
+                          sbox_sync_U6	          1         0.0
+---------------------------------------------------
+Report for cell sbox_sync_U3
+   Instance path: aes/core/sb/word3/b3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U4
+   Instance path: aes/core/sb/word3/b2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U5
+   Instance path: aes/core/sb/word3/b1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U6
+   Instance path: aes/core/sb/word3/b0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sub_bytes_U19
+   Instance path: aes/core/sb/word2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         sbox_sync_U10	          1         0.0
+                          sbox_sync_U7	          1         0.0
+                          sbox_sync_U8	          1         0.0
+                          sbox_sync_U9	          1         0.0
+---------------------------------------------------
+Report for cell sbox_sync_U7
+   Instance path: aes/core/sb/word2/b3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U8
+   Instance path: aes/core/sb/word2/b2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U9
+   Instance path: aes/core/sb/word2/b1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U10
+   Instance path: aes/core/sb/word2/b0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sub_bytes_U20
+   Instance path: aes/core/sb/word1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         sbox_sync_U11	          1         0.0
+                         sbox_sync_U12	          1         0.0
+                         sbox_sync_U13	          1         0.0
+                         sbox_sync_U14	          1         0.0
+---------------------------------------------------
+Report for cell sbox_sync_U11
+   Instance path: aes/core/sb/word1/b3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U12
+   Instance path: aes/core/sb/word1/b2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U13
+   Instance path: aes/core/sb/word1/b1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U14
+   Instance path: aes/core/sb/word1/b0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sub_bytes_U21
+   Instance path: aes/core/sb/word0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         sbox_sync_U15	          1         0.0
+                         sbox_sync_U16	          1         0.0
+                         sbox_sync_U17	          1         0.0
+                         sbox_sync_U18	          1         0.0
+---------------------------------------------------
+Report for cell sbox_sync_U15
+   Instance path: aes/core/sb/word0/b3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U16
+   Instance path: aes/core/sb/word0/b2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U17
+   Instance path: aes/core/sb/word0/b1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U18
+   Instance path: aes/core/sb/word0/b0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell mix_columns
+   Instance path: aes/core/mc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        268        17.9
+                               LUTGATE	        268        18.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                             mixcolumn	          1         1.3
+                         mixcolumn_U22	          1         1.4
+                         mixcolumn_U23	          1         1.5
+                         mixcolumn_U24	          1         1.4
+---------------------------------------------------
+Report for cell mixcolumn
+   Instance path: aes/core/mc/mc3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         19         1.3
+                               LUTGATE	         19         1.3
+---------------------------------------------------
+Report for cell mixcolumn_U22
+   Instance path: aes/core/mc/mc2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         21         1.4
+                               LUTGATE	         21         1.4
+---------------------------------------------------
+Report for cell mixcolumn_U23
+   Instance path: aes/core/mc/mc1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         22         1.5
+                               LUTGATE	         22         1.5
+---------------------------------------------------
+Report for cell mixcolumn_U24
+   Instance path: aes/core/mc/mc0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         21         1.4
+                               LUTGATE	         21         1.4
+---------------------------------------------------
+Report for cell aes_controller
+   Instance path: aes/core/cool_controller
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        371        24.7
+                               LUTGATE	        361        24.2
+                                LUTCCU	         10        100.0
+                                PFUREG	        146        18.6
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+              aes_controller_nextstate	          1         1.5
+                            expand_key	          1        17.5
+---------------------------------------------------
+Report for cell expand_key
+   Instance path: aes/core/cool_controller/expand
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        263        17.5
+                               LUTGATE	        263        17.7
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     rot_and_sub_bytes	          1         0.0
+                round_constant_decoder	          1         0.5
+---------------------------------------------------
+Report for cell rot_and_sub_bytes
+   Instance path: aes/core/cool_controller/expand/rsb
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          4        20.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                             sbox_sync	          1         0.0
+                          sbox_sync_U0	          1         0.0
+                          sbox_sync_U1	          1         0.0
+                          sbox_sync_U2	          1         0.0
+---------------------------------------------------
+Report for cell sbox_sync
+   Instance path: aes/core/cool_controller/expand/rsb/b3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U0
+   Instance path: aes/core/cool_controller/expand/rsb/b2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U1
+   Instance path: aes/core/cool_controller/expand/rsb/b1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell sbox_sync_U2
+   Instance path: aes/core/cool_controller/expand/rsb/b0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.0
+---------------------------------------------------
+Report for cell round_constant_decoder
+   Instance path: aes/core/cool_controller/expand/decode
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.5
+                               LUTGATE	          7         0.5
+---------------------------------------------------
+Report for cell aes_controller_nextstate
+   Instance path: aes/core/cool_controller/FSM_logic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         23         1.5
+                               LUTGATE	         23         1.5

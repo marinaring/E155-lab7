@@ -1,0 +1,15 @@
+aes_spi
+round_constant_decoder
+sbox_sync
+rot_and_sub_bytes
+expand_key
+aes_controller_nextstate
+aes_controller
+sub_bytes
+sub_words
+shift_rows
+galoismult
+mixcolumn
+mix_columns
+aes_core
+aes

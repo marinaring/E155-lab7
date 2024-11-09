@@ -10,8 +10,9 @@ module testbench_aes_spi();
     logic [127:0] key, plaintext, cyphertext, expected;
 		logic [255:0] comb;
     logic [8:0] i;
+    logic [3:0] debug_state;
 
-    // Added delay
+    // Added delayd
     logic delay;
     
     // device under test

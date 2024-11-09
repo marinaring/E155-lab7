@@ -1,0 +1,9 @@
+-w
+-gui
+-msgset "C:/Users/Marina/OneDrive/Documents/Marina/College/MicroPs/E155-lab7/fpga/radiant project/lab7_better/promote.xml"
+-n 1
+-t 1
+-s 1
+-cores 1
+-hsp m
+-exp parPathBased=ON

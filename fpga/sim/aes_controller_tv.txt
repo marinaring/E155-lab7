@@ -1,0 +1,67 @@
+// {key, sben_expected, sren_expected, mcen_expected, outen_expected, roundkey_expected}
+
+// IDLE
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___0___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 0_0_0_0
+
+// ROUND 0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___1___2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c // Round 1: 0_0_0_1
+
+// ROUND 1
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___a0_fa_fe_17_88_54_2c_b1_23_a3_39_39_2a_6c_76_05 // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___a0_fa_fe_17_88_54_2c_b1_23_a3_39_39_2a_6c_76_05 // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___a0_fa_fe_17_88_54_2c_b1_23_a3_39_39_2a_6c_76_05 // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___a0_fa_fe_17_88_54_2c_b1_23_a3_39_39_2a_6c_76_05 // Round 1: 1_1_1_1 -> F
+
+// ROUND 2
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___f2_c2_95_f2_7a_96_b9_43_59_35_80_7a_73_59_f6_7f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___f2_c2_95_f2_7a_96_b9_43_59_35_80_7a_73_59_f6_7f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___f2_c2_95_f2_7a_96_b9_43_59_35_80_7a_73_59_f6_7f // Round 1: 1_1_1_1 -> F
+
+// ROUND 3
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___3d_80_47_7d_47_16_fe_3e_1e_23_7e_44_6d_7a_88_3b // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___3d_80_47_7d_47_16_fe_3e_1e_23_7e_44_6d_7a_88_3b // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___3d_80_47_7d_47_16_fe_3e_1e_23_7e_44_6d_7a_88_3b // Round 1: 1_1_1_1 -> F
+
+// ROUND 4
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ef_44_a5_41_a8_52_5b_7f_b6_71_25_3b_db_0b_ad_00 // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ef_44_a5_41_a8_52_5b_7f_b6_71_25_3b_db_0b_ad_00 // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___ef_44_a5_41_a8_52_5b_7f_b6_71_25_3b_db_0b_ad_00 // Round 1: 1_1_1_1 -> F
+
+// ROUND 5
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___d4_d1_c6_f8_7c_83_9d_87_ca_f2_b8_bc_11_f9_15_bc // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___d4_d1_c6_f8_7c_83_9d_87_ca_f2_b8_bc_11_f9_15_bc // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___d4_d1_c6_f8_7c_83_9d_87_ca_f2_b8_bc_11_f9_15_bc // Round 1: 1_1_1_1 -> F
+
+// ROUND 6
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___6d_88_a3_7a_11_0b_3e_fd_db_f9_86_41_ca_00_93_fd // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___6d_88_a3_7a_11_0b_3e_fd_db_f9_86_41_ca_00_93_fd // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___6d_88_a3_7a_11_0b_3e_fd_db_f9_86_41_ca_00_93_fd // Round 1: 1_1_1_1 -> F
+
+// ROUND 7
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___4e_54_f7_0e_5f_5f_c9_f3_84_a6_4f_b2_4e_a6_dc_4f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___4e_54_f7_0e_5f_5f_c9_f3_84_a6_4f_b2_4e_a6_dc_4f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___4e_54_f7_0e_5f_5f_c9_f3_84_a6_4f_b2_4e_a6_dc_4f // Round 1: 1_1_1_1 -> F
+
+// ROUND 8
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ea_d2_73_21_b5_8d_ba_d2_31_2b_f5_60_7f_8d_29_2f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ea_d2_73_21_b5_8d_ba_d2_31_2b_f5_60_7f_8d_29_2f // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___ea_d2_73_21_b5_8d_ba_d2_31_2b_f5_60_7f_8d_29_2f // Round 1: 1_1_1_1 -> F
+
+// ROUND 9
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_1_0 -> E
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ac_77_66_f3_19_fa_dc_21_28_d1_29_41_57_5c_00_6e // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___e___ac_77_66_f3_19_fa_dc_21_28_d1_29_41_57_5c_00_6e // Round 1: 1_1_1_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___f___ac_77_66_f3_19_fa_dc_21_28_d1_29_41_57_5c_00_6e // Round 1: 1_1_1_1 -> F
+
+// ROUND 10
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___c___xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx_xx // Round 1: 1_1_0_0 -> C
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___c___d0_14_f9_a8_c9_ee_25_89_e1_3f_0c_c8_b6_63_0c_a6 // Round 1: 1_1_0_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___c___d0_14_f9_a8_c9_ee_25_89_e1_3f_0c_c8_b6_63_0c_a6 // Round 1: 1_1_0_0
+2b_7e_15_16_28_ae_d2_a6_ab_f7_15_88_09_cf_4f_3c___c___d0_14_f9_a8_c9_ee_25_89_e1_3f_0c_c8_b6_63_0c_a6 // Round 1: 1_1_0_0 -> C

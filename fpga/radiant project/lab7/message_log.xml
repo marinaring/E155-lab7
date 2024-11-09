@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synthesis">
+        <Message>
+            <ID>2012915</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL265 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:42:4:42:12|Removing unused bit 127 of cyphertextcaptured[127:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Removing unused bit 127 of cyphertextcaptured[127:0]. Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012641</ID>
+            <Severity>16</Severity>
+            <Dynamic>CG371 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:17:12:17:20|Cannot find data file sbox.txt for task $readmemh</Dynamic>
+            <Navigation>CG371</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Cannot find data file sbox.txt for task $readmemh</Navigation>
+        </Message>
+        <Message>
+            <ID>2012720</ID>
+            <Severity>16</Severity>
+            <Dynamic>CG532 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:17:2:17:8|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Dynamic>
+            <Navigation>CG532</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:43:86:46|Only one assignment is legal on sben</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Only one assignment is legal on sben</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:49:86:52|Only one assignment is legal on sren</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Only one assignment is legal on sren</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:55:86:58|Only one assignment is legal on mcen</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>Only one assignment is legal on mcen</Navigation>
+        </Message>
+        <Message>
+            <ID>2012659</ID>
+            <Severity>4096</Severity>
+            <Dynamic>CG410 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:86:61:86:65|Only one assignment is legal on outen</Dynamic>
+            <Navigation>CG410</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>86</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>Only one assignment is legal on outen</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register sben. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register sben. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register sren. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register sren. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register mcen. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register mcen. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv&quot;:100:1:100:9|Pruning unused register outen. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\aes_starter.sv</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register outen. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv&quot;:20:1:20:9|Pruning register bits 7 to 1 of y[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mring\Documents\MicroPs\E155-lab7\fpga\src\sbox_sync.sv</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 7 to 1 of y[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

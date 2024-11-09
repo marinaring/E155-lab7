@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/3/2024 23:34:12
+#Project Location: C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project; Project name: lab7
+prj_open "C:/Users/mring/Documents/MicroPs/E155-lab7/fpga/radiant project/lab7.rdf"
+prj_save 
+prj_close
+#Stop recording: 11/3/2024 23:34:31
